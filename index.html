@@ -26,6 +26,18 @@
     <!-- ウェブクリップアイコン // スマホのホーム画面に登録した際などに表示されるもの -->
     <link rel="apple-touch-icon" href="webclip.png" />
     
+     <!-- OGP関連 // FacebookやTwitterなどのSNSでwebページやブログの記事がシェアされた時、またLINEなどのメッセージ機能でページのURLを送信した時に、そのページのタイトル、URL、概要、画像を表示させる仕組みのこと -->
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:url" content="サイトのURL" />
+    <!-- トップページであればwebsite、それ以外はarticle -->
+    <meta property="og:type" content="website or article" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:description" content="ページの説明" />
+    <!-- シェアされた時に表示したい画像を絶対パスで記入し設定。 -->
+    <meta property="og:image" content="URL" />
+    <!-- 日本語で書かれた、日本人がターゲットのサイトであれば、こちらを指定 -->
+    <meta property="og:locale" content="ja_JP" />
+    
 </head>
 
 </html>
