@@ -1,0 +1,47 @@
+:root{
+    --content-width: 100%;
+    --content-max-width: auto;
+    --content-min-width: auto;
+    --contentBlack: #000000;
+    --contentWhite: #FFFFFF;
+}
+
+/* 共通width */
+
+
+.header{
+    padding: 19px 0;
+    background-color: var(--contentBlack);
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+
+}
+.header__logo-img{
+    display: block;
+    width: 105px;
+}
+.header__sp{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.hamburger-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 12px;
+}
+.hamburger-icon__line{
+    width: 100%;
+    height: 1px;
+    background-color: var(--contentWhite);
+}
+
+@media screen and (min-width: 900px){
+}
