@@ -17,16 +17,9 @@
     <!-- iPhoneでは、電話番号らしき文字列があると自動検出してリンクになってしまい、それを防ぐためのもの。 -->
     <meta name="format-detection" content="telephone=no" />
     <!-- Twitter専用の記述 // 多くの場合summary_large_imageかsummaryを指定し、summary_large_imageは大きな画像で表示。 -->
-    <meta name="twitter:card" content="summary_large_image or summary" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <!-- ファビコン // ブラウザのタブなどに表示されるアイコンの俗称 -->
-    <link rel="icon" href="/images/favicon.ico" />
-    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
-
-    <!-- ウェブクリップアイコン // スマホのホーム画面に登録した際などに表示されるもの -->
-    <link rel="apple-touch-icon" href="webclip.png" />
-    
-     <!-- OGP関連 // FacebookやTwitterなどのSNSでwebページやブログの記事がシェアされた時、またLINEなどのメッセージ機能でページのURLを送信した時に、そのページのタイトル、URL、概要、画像を表示させる仕組みのこと -->
+    <!-- OGP関連 // FacebookやTwitterなどのSNSでwebページやブログの記事がシェアされた時、またLINEなどのメッセージ機能でページのURLを送信した時に、そのページのタイトル、URL、概要、画像を表示させる仕組みのこと -->
     <meta property="og:site_name" content="サイト名" />
     <meta property="og:url" content="サイトのURL" />
     <!-- トップページであればwebsite、それ以外はarticle -->
@@ -37,9 +30,18 @@
     <meta property="og:image" content="URL" />
     <!-- 日本語で書かれた、日本人がターゲットのサイトであれば、こちらを指定 -->
     <meta property="og:locale" content="ja_JP" />
+    
+    <!-- ファビコン // ブラウザのタブなどに表示されるアイコンの俗称 -->
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
 
+    <!-- ウェブクリップアイコン // スマホのホーム画面に登録した際などに表示されるもの -->
+    <link rel="apple-touch-icon" href="/images/webclip.png" />
+    
     <!-- CSSファイルの読み込み -->
     <link rel="stylesheet" href="/css/style.css">
+    <!-- canonical（カノニカル） // 同じサイト内に、重複したコンテンツや類似するページが存在する場合、どのページを評価してほしいかを検索エンジンに伝えるためのタグ -->
+    <link rel="canonical" href="正規ページURL">
 </head>
 
 </html>
