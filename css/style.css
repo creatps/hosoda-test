@@ -239,3 +239,27 @@ input, select {
         margin: 15px 0 0 8px;
     }
 }
+
+/* main */
+.main{
+
+}
+.main-visual{
+
+}
+.main-visual__sp__img{
+    display: block;
+    width: 100%;
+}
+.main-visual__pc__img{
+    display: none;
+}
+@media screen and (min-width: 900px){
+    .main-visual__sp__img{
+        display: none;
+    }    
+    .main-visual__pc__img{
+        display: block;
+        width: 100%;
+    }
+}
