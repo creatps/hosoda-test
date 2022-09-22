@@ -18,6 +18,7 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    font-weight: normal;
 }
 
 body {
@@ -103,6 +104,7 @@ input, select {
     --content-min-width: auto;
     --contentBlack: #000000;
     --contentWhite: #FFFFFF;
+    --astaliftRed: #D7063B;
 }
 
 /* 共通width */
@@ -261,3 +263,55 @@ input, select {
     }
 }
 
+/* top-pickup */
+.top-pickup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 20px 50px;
+}
+.top-pickup__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: var(--astaliftRed);
+    line-height: 160%;
+}
+.top-pickup__title::after{
+    content: "ピックアップ";
+    display: block;
+    font-size: 14px;
+    color: var(--contentBlack);
+    line-height: 160%;
+}
+.top-pickup__list{
+
+}
+.top-pickup__item{
+    width: 250px;
+    margin-top: 30px;
+}
+.top-pickup__link{
+
+}
+.top-pickup__img{
+    display: block;
+    width: 100%;
+}
+.top-pickup__item-text{
+    padding: 14px 20px 20px;
+    background-color: var(--contentWhite);
+}
+.top-pickup__item-title{
+    font-size: 18px;
+    color: var(--contentBlack);
+    line-height: 160%;
+}
+.top-pickup__item-content{
+    font-size: 12px;
+    color: var(--contentBlack);
+    line-height: 160%;
+}
