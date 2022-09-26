@@ -24,32 +24,30 @@ time, mark, audio, video {
 body {
     line-height:1;
 }
-
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
     display:block;
 }
-
 nav ul {
     list-style:none;
 }
-
 blockquote, q {
     quotes:none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
     content:'';
     content:none;
 }
-
 a {
     margin:0;
     padding:0;
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+}
+li {
+	list-style-type:none;		/*リストマーカー無しにする*/
 }
 
 /* change colours to suit your needs */
@@ -66,16 +64,13 @@ mark {
     font-style:italic;
     font-weight:bold;
 }
-
 del {
     text-decoration: line-through;
 }
-
 abbr[title], dfn[title] {
     border-bottom:1px dotted;
     cursor:help;
 }
-
 table {
     border-collapse:collapse;
     border-spacing:0;
@@ -90,7 +85,6 @@ hr {
     margin:1em 0;
     padding:0;
 }
-
 input, select {
     vertical-align:middle;
 }
