@@ -39,6 +39,7 @@
     <link rel="apple-touch-icon" href="/images/webclip.png" />
     
     <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <!-- canonical（カノニカル） // 同じサイト内に、重複したコンテンツや類似するページが存在する場合、どのページを評価してほしいかを検索エンジンに伝えるためのタグ -->
     <link rel="canonical" href="正規ページURL">
@@ -121,16 +122,153 @@
                 <ul class="top-product__list">
                     <li class="product-card">
                         <a href="" class="product-card__link">
-                            <picture class="product-card__picture">
-                                <source type="image/webp" srcset="">
-                                <img src="" alt="" class="product-card__img">
-                            </picture>
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-astalift.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-astalift.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
                             <div class="product-card__inner">
-                                <p class="product-card__label">美白<sup>*</sup>・ハリケア</p>
+                                <p class="product-card__label">ハリ・うるおいケア</p>
                                 <p class="product-card__name">アスタリフト シリーズ</p>
                             </div>
                         </a>
-                        <!-- <p class="annotation-text">* メラニンの生成を抑え、シミ・そばかすを防ぐこと</p> -->
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-white.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-white.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__label">美白<sup>*</sup>・ハリケア</p>
+                                <p class="product-card__name">アスタリフト ホワイトシリーズ</p>
+                            </div>
+                        </a>
+                        <p class="annotation-text">* メラニンの生成を抑え、シミ・そばかすを防ぐこと</p>
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_opme.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_opme.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__label">高保湿シンプルケア</p>
+                                <p class="product-card__name">オプミー シリーズ</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="top-product__category">機能別シリーズ</h3>
+                <ul class="top-product__list">
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-astalift.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-astalift.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__label">土台ケア<sup>*</sup></p>
+                                <p class="product-card__name">ジェリーアクアリスタ シリーズ</p>
+                            </div>
+                        </a>
+                        <p class="annotation-text">* 角層のしっかりとしたお手入れでお肌をケアすること。</p>
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-white.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-white.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__label">深い肌悩みに応じたケア</p>
+                                <p class="product-card__name">ザ セラム シリーズ</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_opme.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_opme.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__label">UVケア</p>
+                                <p class="product-card__name">D-UVクリア シリーズ</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-white.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-white.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__label">プレミアムエイジングケア<sup>*</sup></p>
+                                <p class="product-card__name">インフォーカス シリーズ</p>
+                            </div>
+                        </a>
+                        <p class="annotation-text">* 年齢に応じたケアのこと</p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="top-product__category">その他カテゴリー</h3>
+                <ul class="top-product__list">
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-astalift.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-astalift.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__name">アスタリフト ベースメイク</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_series-white.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_series-white.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__name">アスタリフト ヘアケア</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="product-card">
+                        <a href="" class="product-card__link">
+                            <div class="product-card__picture">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/webp/product_img_opme.webp">
+                                    <img class="product-card__img" src="assets/images/product_img_opme.jpg" type="image/jpeg" alt="">
+                                </picture>    
+                            </div>
+                            <div class="product-card__inner">
+                                <p class="product-card__name">アスタリフト インナーケア</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </section>

@@ -1,97 +1,3 @@
-/* リセットscc */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-    font-weight: normal;
-}
-
-body {
-    line-height:1;
-}
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
-    display:block;
-}
-nav ul {
-    list-style:none;
-}
-blockquote, q {
-    quotes:none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-li {
-	list-style-type:none;		/*リストマーカー無しにする*/
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-del {
-    text-decoration: line-through;
-}
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-input, select {
-    vertical-align:middle;
-}
-/* リセットscc end */
-
-
-
 :root{
     --content-width: 100%;
     --content-max-width: auto;
@@ -310,6 +216,7 @@ input, select {
     margin-right: 20px;
     flex-shrink: 0;
     flex-grow: 0;
+    /* 影 */
     box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .5);
 }
 .top-pickup__link{
@@ -414,38 +321,70 @@ input, select {
     line-height: 160%;
 }
 .top-product__inner{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .top-product__category{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 0 30px;
+}
+.top-product__category::after{
+    content: "";
+    border: 1px var(--astaliftRed) solid;
+    width: 30px;
+    margin-top: 13px;
 }
 .top-product__list{
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    z-index: 1;
 }
 .product-card{
-
+    width: 160px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 .product-card__link{
-
+    display: flex;
+    flex-direction: column;
+    box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .3);
 }
 .product-card__picture{
-
 }
 .product-card__img{
     display: block;
+    width: 100%;
 }
 .product-card__inner{
-    font-style: 14px;
-    color: var(--contentBlack);
-    line-height: 160%;
     padding: 12px 13px;
     background-color: var(--contentWhite);
+    flex-grow: 1;
 }
 .product-card__label{
+    font-size: 10px;
+    color: var(--contentBlack);
+    line-height: 160%;
     border: 1px #BEC0C3 solid;
     width: fit-content;
     margin-bottom: 8px;
 }
 .product-card__name{
+    font-size: 14px;
+    color: var(--contentBlack);
+    line-height: 160%;
     font-weight: bold;
+}
+.annotation-text{
+    font-size: 10px;
+    color: #3B4043;
+    line-height: 160%;
+    margin-top: 8px;
 }
