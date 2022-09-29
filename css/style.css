@@ -388,3 +388,97 @@
     line-height: 160%;
     margin-top: 8px;
 }
+@media screen and (min-width: 900px){
+    .top-product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 60px 20px 80px;
+        background-color: #E5E9EF;
+    }
+    .top-product__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 30px;
+        color: var(--astaliftRed);
+        line-height: 160%;
+    }
+    .top-product__title::after{
+        content: "商品情報";
+        display: block;
+        font-size: 14px;
+        color: var(--contentBlack);
+        line-height: 160%;
+    }
+    .top-product__inner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .top-product__category{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px 0 30px;
+    }
+    .top-product__category::after{
+        content: "";
+        border: 1px var(--astaliftRed) solid;
+        width: 30px;
+        margin-top: 13px;
+    }
+    .top-product__list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        z-index: 1;
+    }
+    .product-card{
+        width: 160px;
+        margin-bottom: 20px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+    .product-card__link{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .3);
+    }
+    .product-card__picture{
+    }
+    .product-card__img{
+        display: block;
+        width: 100%;
+    }
+    .product-card__inner{
+        padding: 12px 13px;
+        background-color: var(--contentWhite);
+        flex-grow: 1;
+    }
+    .product-card__label{
+        font-size: 10px;
+        color: var(--contentBlack);
+        line-height: 160%;
+        border: 1px #BEC0C3 solid;
+        width: fit-content;
+        margin-bottom: 8px;
+    }
+    .product-card__name{
+        font-size: 14px;
+        color: var(--contentBlack);
+        line-height: 160%;
+        font-weight: bold;
+    }
+    .annotation-text{
+        font-size: 10px;
+        color: #3B4043;
+        line-height: 160%;
+        margin-top: 8px;
+    }
+}
