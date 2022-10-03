@@ -163,6 +163,22 @@
     }
 }
 
+/* main-title */
+.main-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: var(--astaliftRed);
+    line-height: 160%;
+}
+@media screen and (min-width: 900px){
+    .main-title{
+        font-size: 36px;
+    }
+}
+
 /* top-pickup */
 .top-pickup{
     display: flex;
@@ -172,13 +188,6 @@
     margin: 40px 0 50px;
 }
 .top-pickup__title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 30px;
-    color: var(--astaliftRed);
-    line-height: 160%;
 }
 .top-pickup__title::after{
     content: "ピックアップ";
@@ -256,7 +265,6 @@
         margin: 75px 0 100px;
     }
     .top-pickup__title{
-        font-size: 36px;
     }
     .top-pickup__title::after{
         font-size: 18px;
@@ -305,13 +313,6 @@
     background-color: #E5E9EF;
 }
 .top-product__title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 30px;
-    color: var(--astaliftRed);
-    line-height: 160%;
 }
 .top-product__title::after{
     content: "商品情報";
@@ -395,7 +396,6 @@
         padding: 110px 175px;
     }
     .top-product__title{
-        font-size: 36px;
     }
     .top-product__title::after{
         font-size: 18px;
@@ -520,4 +520,62 @@
     .top-link__text{
         font-size: 16px;
     }
+}
+
+/* top-movie */
+.top-movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-movie__title::after{
+    content: "ブランドムービー";
+    display: block;
+    font-size: 14px;
+    color: var(--contentBlack);
+    line-height: 160%;
+}
+.top-movie__content{
+    margin-top: 19px;
+}
+.top-movie__img{
+    display: block;
+    width: 100%;
+}
+.common-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--astaliftRed);
+    width: 195px;
+    height: 48px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+.common-btn__link{
+    font-size: 14px;
+    color: var(--contentWhite);
+    line-height: 160%;
+}
+@media screen and (min-width: 900px){
+    .top-movie{
+        padding: 0 175px;
+    }
+    .main-title{
+        display: none;
+    }
+    .top-movie__content{
+        margin-top: 0;
+    }
+    .top-movie__img{
+    }
+    .common-btn{
+        width: 356px;
+        height: 60px;
+        margin-top: 50px;
+    }
+    .common-btn__link{
+        font-size: 16px;
+    }    
 }
