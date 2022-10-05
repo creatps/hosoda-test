@@ -736,3 +736,32 @@
         display: none;
     }    
 }
+
+/* footer-trial */
+.footer-trial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px 10px;
+}
+.footer-trial__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--contentWhite);
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.footer-trial__img{
+    display: block;
+    width: 100%;
+}
+@media screen and (min-width: 900px){
+    .footer-trial{
+    }
+    .footer-trial__link{
+        width: 356px;
+    }
+    .footer-trial__img{
+    }    
+}
