@@ -662,10 +662,8 @@
 
 /* footer-series */
 .footer-series{
-
 }
 .footer-series__list{
-
 }
 .footer-series__item{
     display: flex;
@@ -705,7 +703,36 @@
     bottom: 0;
     right: 20px;
     margin: auto;
-
 }
 @media screen and (min-width: 900px){
+    .footer-series{
+        padding: 0 89px;
+    }
+    .footer-series__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footer-series__item{
+        padding: 13px 20px 13px 24px;
+        /* widthの計算で間のmarginを割り出す */
+        width: calc( ( 100% - 120px ) / 4 );
+    }
+    .footer-series__item:last-of-type{
+        border-bottom: 0;
+    }
+    .footer-series__item:nth-last-of-type(-n+3){
+        border-bottom: 1px solid var(--LineGray);
+    }
+    .footer-series__link{
+        margin-right: 15px;
+    }
+    .footer-series__img{
+    }
+    .footer-series__link-text{
+    }
+    .footer-series__link-text::after{
+        display: none;
+    }    
 }
