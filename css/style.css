@@ -968,6 +968,13 @@
 }
 .spfooter-sublist__content{
 }
+/* .spfooter-sublist__link:nth-of-type(-n+2){
+    content: "";
+    display: block;
+    border-right: 1px solid var(--contentWhite);
+    height: fit-content;
+    padding-right: 17px;
+} */
 .spfooter-sublist__link{
     font-size: 11px;
     color: var(--contentWhite);
@@ -977,7 +984,6 @@
     padding-right: 17px;
 }
 .spfooter-sublist__link-border:last-of-type{
-    padding-right: 0;
     border: 0;
 }
 /* spfooter-copyright" */
