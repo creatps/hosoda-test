@@ -1,0 +1,48 @@
+<!-- DOCTYPE宣言 -->
+<!DOCTYPE html>
+<!-- ページの言語指定 -->
+<html lang="ja">
+
+<head>
+    <!-- ページ情報 -->
+    <!-- meta // meta要素は文書におけるさまざまなメタデータを表します。メタデータとは、文書の文字コードや文書の概要、キーワードなどの文書に関する情報のことを表します。 -->
+    <!-- テキストをどのような文字コードを使用し、どのような形式で表示するか指定することができる -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- 表示領域 // PCやモバイル（スマホ、タブレット）といったデバイスごとにコンテンツの表示領域を設定するためのHTML属性値（meta要素のname属性の属性値）のこと -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>ページタイトル // 検索結果やブラウザのタブに表示</title>
+    <meta name="description" content="検索結果に表示されるページの説明" />
+    <meta name="keywords" content="そのページがどんなキーワードと関連したページなのかを示すタグのこと">
+    <!-- iPhoneでは、電話番号らしき文字列があると自動検出してリンクになってしまい、それを防ぐためのもの。 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- Twitter専用の記述 // 多くの場合summary_large_imageかsummaryを指定し、summary_large_imageは大きな画像で表示。 -->
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- OGP関連 // FacebookやTwitterなどのSNSでwebページやブログの記事がシェアされた時、またLINEなどのメッセージ機能でページのURLを送信した時に、そのページのタイトル、URL、概要、画像を表示させる仕組みのこと -->
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:url" content="サイトのURL" />
+    <!-- トップページであればwebsite、それ以外はarticle -->
+    <meta property="og:type" content="website or article" />
+    <meta property="og:title" content="ページのタイトル" />
+    <meta property="og:description" content="ページの説明" />
+    <!-- シェアされた時に表示したい画像を絶対パスで記入し設定。 -->
+    <meta property="og:image" content="URL" />
+    <!-- 日本語で書かれた、日本人がターゲットのサイトであれば、こちらを指定 -->
+    <meta property="og:locale" content="ja_JP" />
+    
+    <!-- ファビコン // ブラウザのタブなどに表示されるアイコンの俗称 -->
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+
+    <!-- ウェブクリップアイコン // スマホのホーム画面に登録した際などに表示されるもの -->
+    <link rel="apple-touch-icon" href="/images/webclip.png" />
+    
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- canonical（カノニカル） // 同じサイト内に、重複したコンテンツや類似するページが存在する場合、どのページを評価してほしいかを検索エンジンに伝えるためのタグ -->
+    <link rel="canonical" href="正規ページURL">
+</head>
+
+</html>
