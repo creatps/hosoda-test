@@ -45,9 +45,12 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    /* linkの下線消す */
+    text-decoration: none;
 }
 li {
-	list-style-type:none;		/*リストマーカー無しにする*/
+    /*リストマーカー無しにする*/
+	list-style-type:none;
 }
 
 /* change colours to suit your needs */
