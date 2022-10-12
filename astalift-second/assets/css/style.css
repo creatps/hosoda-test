@@ -2,7 +2,7 @@
     --content-width: 100%;
     --content-max-width: auto;
     --content-min-width: auto;
-    --mainRed: #f00000;
+    --mainRed: #D7063B;
     --colorBlack: #000000;
     --colortWhite: #FFFFFF;
     --lineGray: #CBD2D8;
@@ -159,4 +159,106 @@
         width: 100%;
         margin-bottom: 75px;
     }    
+}
+
+/* main-title */
+.main-title{
+    display: flex;
+    align-items: center;
+    /* 縦並び */
+    flex-direction: column;
+    color: var(--mainRed);
+    font-size: 30px;
+    line-height: 160%;
+    font-family:"Playfair Display", serif;
+}
+@media screen and (min-width: 897px){
+}
+
+/* pick-up */
+.pick-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.pick-up__title::after{
+    content: "ピックアップ";
+    display: block;
+    color: var(--colorBlack);
+    font-size: 14px;
+    line-height: 160%;
+    margin-top: 2px;
+}
+.pick-up__primary{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    position: relative;
+    width: 95%;
+    margin-left: 20px;
+    /* 影 : 左右,上下,ぼかし指定,色 */
+    box-shadow: 40px 20px 20px rgba(12, 8, 21, .3);
+}
+.pick-up__primary::before{
+    content: "";
+    display: block;
+    background-color: var(--mainRed);
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* グラデーション */
+    background: linear-gradient(to right, Red ,rgba(105, 3, 31, 1) , black 140%);
+}
+.pick-up__primary-list{
+    display: flex;
+    padding: 30px 0 50px 30px;
+    /* 重ね順 */
+    z-index: 1;
+}
+.pick-up__primary-item{
+    width: 250px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    /* 影 : 左右,上下,ぼかし指定,色 */
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, .2);
+}
+.pick-up__primary-link{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.pick-up__primary-link__img{
+    display: block;
+    width: 100%;
+}
+.pick-up__primary-link__text{
+    background-color: var(--colortWhite);
+    padding: 14px 20px 20px;
+    flex-grow: 1;
+}
+.pick-up__primary-link__title{
+    color: var(--colorBlack);
+    font-size: 18px;
+    line-height: 160%;
+    font-family: "Noto Serif JP", serif;
+}
+.pick-up__primary-link__title::after{
+    content: "";
+    display: block;
+    border: 1px solid var(--mainRed);
+    width: 20px;
+    margin: 8px 0;
+}
+.pick-up__primary-link__lead{
+    color: var(--colorBlack);
+    font-size: 12px;
+    line-height: 160%;
+    font-family: "Noto Serif JP";
+}
+@media screen and (min-width: 897px){
 }
