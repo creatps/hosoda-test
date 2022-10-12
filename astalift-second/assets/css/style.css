@@ -134,3 +134,29 @@
     }
 }
 
+/* main-visual */
+.main-visual{
+    width: 100%;
+    margin: 0 auto;
+}
+.main-visual__sp-img{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.main-visual__pc-img{
+    display: none;
+}
+@media screen and (min-width: 897px){
+    .main-visual{
+
+    }
+    .main-visual__sp-img{
+        display: none;
+    }
+    .main-visual__pc-img{
+        display: block;
+        width: 100%;
+        margin-bottom: 75px;
+    }    
+}
