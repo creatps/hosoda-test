@@ -1,9 +1,21 @@
+:root{
+    --content-width: 100%;
+    --content-max-width: auto;
+    --content-min-width: auto;
+    --mainRed: #f00000;
+    --colorBlack: #000000;
+    --colortWhite: #FFFFFF;
+    --lineGray: #CBD2D8;
+}
+
 /* header */
 .header{
+    padding: 21px 133px 16px 138px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: var(--colorBlack);
+    position: relative;
 }
 .header-logo{
 }
@@ -11,11 +23,23 @@
     display: block;
     width: 105px;
 }
+@media screen and (min-width: 1016px){
+    .header{
+        padding: 30px 369px 15px 365px;
+        flex-direction: column;
+        /* position: relative; */
+    }
+    .header-logo{
+        margin-bottom: 24px;
+    }
+    .header-logo__img{
+        width: 127px;
+    }    
+}
 /* header-sp */
 .header-sp{
     display: flex;
     align-items: center;
-    width: fit-content;
 }
 .hamburger-icon{
     display: flex;
@@ -23,11 +47,14 @@
     justify-content: space-between;
     width: 24px;
     height: 12px;
+    position: absolute;
+    top: 24px;
+    right: 14px;
 }
 .hamburger-icon__line{
     width: 100%;
     height: 1px;
-    background-color: #FFFFFF;
+    background-color: var(--colortWhite);
 }
 .header-pc{
     display: none;
@@ -37,24 +64,73 @@
         display: none;
     }
     .header-pc{
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .header-pc__primary-list{
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        right: 10px;
     }
     .header-pc__primary-item{
-
+        width: 148px;
+        margin-right: 5px;
+        position: relative;
+    }
+    .header-pc__primary-item:last-of-type{
+        margin-right: 0;
     }
     .header-pc__primary-link{
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 22px 13px 27px;
+        border: 1px solid var(--lineGray);
+        border-radius: 6px;
+        font-size: 12px;
+        color: var(--colortWhite);
+        line-height: 160%;
+    }
+    .header-pc__white-button::after{
+        content: "";
+        display: block;
+        background-image: url("/astalift-second/assets/images/white-button.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        top: 12px;
+        right: 39px;
     }
     .header-pc__secondary-list{
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    .header-pc__secondary-item{
-
+    .header-pc__secondary-item:nth-of-type(-n+3){
+        margin-right: 70px;
     }
     .header-pc__secondary-link{
-        
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: var(--colortWhite);
+        line-height: 160%;
+    }
+    .header-pc__white-arrow::after{
+        content: "";
+        display: block;
+        background-image: url("/astalift-second/assets/images/white-arrow.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10px;
+        height: 5px;
+        margin-left: 9px;
     }
 }
+
