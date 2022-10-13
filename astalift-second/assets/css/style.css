@@ -5,7 +5,9 @@
     --mainRed: #D7063B;
     --colorBlack: #000000;
     --colortWhite: #FFFFFF;
+    --colorGray: #BEC0C3;
     --lineGray: #CBD2D8;
+    --backGray: #E5E9EF;
 }
 
 /* header */
@@ -297,4 +299,97 @@
     .pick-up__primary-link__lead{
         font-size: 14px;
     }    
+}
+
+/* sub-title */
+.sub-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    color: var(--colorBlack);
+    line-height: 160%;
+    margin-bottom: 29px;
+}
+.sub-title::after{
+    content: "";
+    display: block;
+    border: 1px solid var(--mainRed);
+    width: 30px;
+    margin-top: 13px;
+}
+@media screen and (min-width: 1016px){
+}
+
+/* products */
+.products{
+    padding: 60px 20px 80px;
+    background-color: var(--backGray);
+}
+.products__main-title::after{
+    content: "商品情報";
+    display: flex;
+    color: var(--colorBlack);
+    font-size: 14px;
+    line-height: 160%;
+    margin: 2px 0 25px;
+}
+.products__primary{
+    margin-bottom: 60px;
+}
+.products__primary:last-of-type{
+    margin-bottom: 0;
+}
+.products__sub-title{
+}
+.products__primary-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* z-index: 1; */
+}
+.products__primary-item{
+    width: 160px;
+    /* width: calc(( 335px - 15px ) / 3); */
+    margin-bottom: 20px;
+    flex-shrink: 0;
+    /* z-index: 0; */
+}
+.products__primary-item:nth-of-type(odd){
+    margin-right: 15px;
+}
+.products__primary-link{
+}
+.products__primary-link__img{
+    display: block;
+    width: 100%;
+}
+.products__primary-link__text{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 13px;
+    background-color: var(--colortWhite);
+    font-size: 14px;
+    line-height: 160%;
+    color: var(--colorBlack);
+}
+.products__primary-link__title{
+    font-family: "Noto Sans JP";
+    border: 0.5px solid var(--colorGray);
+    padding: 4px 6px;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+.products__primary-link__lead{
+    font-family: "Noto Serif JP", serif;
+}
+.products__primary-link__lead-br{
+}
+.products__primary-item__note{
+    font-size: 10px;
+    line-height: 160%;
+    color: #3B4043;
+    margin-top: 8px;
+}
+@media screen and (min-width: 1016px){
 }
