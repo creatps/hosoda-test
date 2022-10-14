@@ -174,10 +174,16 @@
     line-height: 160%;
     font-family:"Playfair Display", serif;
 }
+.main-title::after{
+    margin-top: 2px;
+}
 @media screen and (min-width: 897px){
     .main-title{
         font-size: 36px;
-    }    
+    }
+    .main-title::after{
+        margin-top: 9px;
+    }        
 }
 
 /* pick-up */
@@ -194,7 +200,6 @@
     color: var(--colorBlack);
     font-size: 14px;
     line-height: 160%;
-    margin-top: 2px;
 }
 .pick-up__primary{
     display: flex;
@@ -348,7 +353,7 @@
     color: var(--colorBlack);
     font-size: 14px;
     line-height: 160%;
-    margin: 2px 0 25px;
+    margin-bottom: 25px;
 }
 /* products__primary */
 .products__primary{
@@ -463,4 +468,45 @@
     color: var(--colorBlack);
     font-family: "Noto Serif JP", serif;
     margin-top: 5px;
+}
+
+/* movie */
+.movie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.movie__title::after{
+    content: "ブランドムービー";
+    display: block;
+    color: var(--colorBlack);
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 19px;
+}
+.movie__img{
+    display: block;
+    width: 100%;
+}
+.movie__link{
+}
+
+/* common__btn */
+.common__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    padding: 14px 32px 14px 31px;
+    background: linear-gradient(to right, Red ,rgba(105, 3, 31, 1) , black 140%);
+    font-size: 14px;
+    color: var(--colortWhite);
+    line-height: 160%;
+    font-family: "Noto Serif JP", serif;
+    border-radius: 6px;
+    margin-top: 30px;
+    /* paddingとborderがwidthとheightの中に含まれるようになる。 */
+    box-sizing: border-box
 }
