@@ -557,3 +557,29 @@
 }
 .news__common-link{
 }
+
+/* footer */
+.footer{
+
+}
+
+/* footer__primary */
+.footer__primary{
+
+}
+.footer__primary-list{
+
+}
+.footer__primary-item{
+
+}
+.footer__primary-link{
+    display: block;
+}
+.footer__primary-img{
+    display: block;
+    width: 100%;
+}
+.footer__primary-title{
+
+}
