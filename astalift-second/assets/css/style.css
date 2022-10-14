@@ -510,3 +510,50 @@
     /* paddingとborderがwidthとheightの中に含まれるようになる。 */
     box-sizing: border-box
 }
+
+/* news */
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-bottom: 53px;
+}
+.news__title::after{
+    content: "お知らせ";
+    display: block;
+    color: var(--colorBlack);
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 19px;
+}
+.news__list{
+}
+.news__item{
+    border-top: 1px solid var(--lineGray);
+}
+.news__item:last-of-type{
+    border-bottom: 1px solid var(--lineGray);
+}
+.news__link{
+    display: flex;
+    padding: 16px 0;
+}
+.news__link-date{
+    font-size: 12px;
+    color: #86898E;
+    line-height: 160%;
+    margin-right: 14px;
+    font-family: "Noto Serif JP", serif;
+}
+.news__link-text{
+    font-size: 14px;
+    color: var(--colorBlack);
+    line-height: 160%;
+    font-family: "Noto Sans JP", sans-serif;
+    /* 下線を引く */
+    text-decoration: underline;
+}
+.news__common-link{
+}
