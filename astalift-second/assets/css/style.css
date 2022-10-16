@@ -609,3 +609,23 @@
     bottom: 0;
     margin: auto;
 }
+
+/* footer__secondary */
+.footer__secondary{
+    padding: 0 20px;
+    margin-bottom: 60px;
+}
+.footer__secondary-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--colortWhite);
+    border-radius: 6px;
+    padding: 2px 0;
+    /* 影 : 左右,上下,ぼかし指定,色 */
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .2);
+}
+.footer__secondary-img{
+    display: block;
+    width: 100%;
+}
