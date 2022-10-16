@@ -560,26 +560,50 @@
 
 /* footer */
 .footer{
-
 }
 
 /* footer__primary */
 .footer__primary{
-
+    margin-bottom: 49px;
 }
 .footer__primary-list{
-
+    display: flex;
+    flex-direction: column;
 }
 .footer__primary-item{
-
+    border-top: 0.5px solid var(--lineGray);
+}
+.footer__primary-item:last-of-type{
+    border-bottom: 0.5px solid var(--lineGray);
 }
 .footer__primary-link{
-    display: block;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px 5px 11px;
+    position: relative;
 }
 .footer__primary-img{
     display: block;
-    width: 100%;
+    width: 65px;
+    margin-right: 23px;
 }
 .footer__primary-title{
-
+    font-size: 14px;
+    color: var(--colorBlack);
+    line-height: 160%;
+    font-family: "Noto Serif JP", serif;
+}
+.footer__primary-title::after{
+    content: "";
+    display: block;
+    background-image: url("/astalift-second/assets/images/red-arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
