@@ -200,6 +200,7 @@
     color: var(--colorBlack);
     font-size: 14px;
     line-height: 160%;
+    font-family: "Noto Serif JP", serif;
 }
 .pick-up__primary{
     display: flex;
@@ -267,7 +268,7 @@
     color: var(--colorBlack);
     font-size: 12px;
     line-height: 160%;
-    font-family: "Noto Serif JP";
+    font-family: "Noto Sans JP";
 }
 @media screen and (min-width: 640px){
     .pick-up{
@@ -354,6 +355,7 @@
     font-size: 14px;
     line-height: 160%;
     margin-bottom: 25px;
+    font-family: "Noto Serif JP", serif;
 }
 /* products__primary */
 .products__primary{
@@ -485,6 +487,7 @@
     font-size: 14px;
     line-height: 160%;
     margin-bottom: 19px;
+    font-family: "Noto Serif JP", serif;
 }
 .movie__img{
     display: block;
@@ -529,6 +532,7 @@
     font-size: 14px;
     line-height: 160%;
     margin-bottom: 19px;
+    font-family: "Noto Serif JP", serif;
 }
 .news__list{
 }
