@@ -437,10 +437,9 @@
 }
 @media screen and (min-width: 1016px){
     .products__primary{
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
     .products__primary:last-of-type{
-        margin-bottom: 0;
     }
     .products__sub-title{
     }
