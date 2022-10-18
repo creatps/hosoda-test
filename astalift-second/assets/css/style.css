@@ -220,7 +220,7 @@
     bottom: 0;
     left: 0;
     /* グラデーション */
-    background: linear-gradient(to right, Red ,rgba(105, 3, 31, 1) , black 140%);
+    background: linear-gradient(to right, rgba(215, 6, 59, 1) ,rgba(105, 3, 31, 1) , black 140%);
 }
 .pick-up__primary-list{
     display: flex;
@@ -500,7 +500,7 @@
     justify-content: center;
     width: 195px;
     padding: 14px 32px 14px 31px;
-    background: linear-gradient(to right, Red ,rgba(105, 3, 31, 1) , black 140%);
+    background: linear-gradient(to right, rgba(215, 6, 59, 1) ,rgba(105, 3, 31, 1) , black 140%);
     font-size: 14px;
     color: var(--colortWhite);
     line-height: 160%;
