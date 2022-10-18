@@ -357,6 +357,22 @@
     margin-bottom: 25px;
     font-family: "Noto Serif JP", serif;
 }
+@media screen and (min-width: 1016px){
+    .products{
+    }
+    .products__main{
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; */
+        padding: 110px 174.85px 110px 175px; 
+    }
+    .products__main-title::after{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}
+
 /* products__primary */
 .products__primary{
     margin-bottom: 60px;
@@ -418,6 +434,69 @@
     color: #3B4043;
     margin-top: 8px;
     font-family: "Noto Sans JP";
+}
+@media screen and (min-width: 1016px){
+    .products__primary{
+        margin-bottom: 60px;
+    }
+    .products__primary:last-of-type{
+        margin-bottom: 0;
+    }
+    .products__sub-title{
+    }
+    .products__sub-title--overlay{
+        margin-bottom: 67px;
+    }
+    .products__primary-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .products__primary-item{
+        width: 160px;
+        /* width: calc(( 335px - 15px ) / 3); */
+        margin-bottom: 20px;
+    }
+    .products__primary-item:nth-of-type(odd){
+        margin-right: 15px;
+    }
+    .products__primary-link{
+        display: block;
+        background-color: var(--colortWhite);
+        /* 影 : 左右,上下,ぼかし指定,色 */
+        box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+    }
+    .products__primary-link__img{
+        display: block;
+        width: 100%;
+    }
+    .products__primary-link__text{
+        padding: 12px 13px;
+    }
+    .products__primary-link__title{
+        font-size: 10px;
+        line-height: 160%;
+        color: var(--colorBlack);
+        font-family: "Noto Sans JP";
+        border: 0.5px solid var(--colorGray);
+        padding: 2px 6px;
+        width: fit-content;
+        margin-bottom: 8px;
+    }
+    .products__primary-link__lead{
+        font-size: 14px;
+        line-height: 160%;
+        color: var(--colorBlack);
+        font-family: "Noto Serif JP", serif;
+    }
+    .products__primary-link__lead-br{
+    }
+    .products__primary-item__note{
+        font-size: 10px;
+        line-height: 160%;
+        color: #3B4043;
+        margin-top: 8px;
+        font-family: "Noto Sans JP";
+    }
 }
 
 /* products__secondary */
