@@ -851,26 +851,29 @@
 .footer__tertiary-sublist-item{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
-    flex-grow: 1;
+}
+.footer__tertiary-sublist-item--border::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 11px;
+    background-color: var(--colortWhite);
+    margin: 0 17px;
+}
+.footer__tertiary-sublist-item--border::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 11px;
+    background-color: var(--colortWhite);
+    margin: 0 17px;
 }
 .footer__tertiary-sublist-link{
     font-size: 11px;
     color: var(--colortWhite);
     line-height: 160%;
     font-family: "Noto Sans JP", sans-serif;
-}
-.footer__tertiary-sublist-link--border::after{
-    content: "";
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color: var(--colortWhite);
-    position: absolute; /*--positionを追加--*/
-	top: 0;
-    right: 0;
-    margin: 0 17px;
 }
 
 /* footer__tertiary-copyright */
