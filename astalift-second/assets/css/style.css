@@ -268,7 +268,7 @@
     color: var(--colorBlack);
     font-size: 12px;
     line-height: 160%;
-    font-family: "Noto Sans JP";
+    font-family: "Noto Sans JP" sans-serif;
 }
 @media screen and (min-width: 640px){
     .pick-up{
@@ -779,6 +779,7 @@
     color: var(--colortWhite);
     line-height: 160%;
     font-family: "Noto Serif JP", serif;
+    padding: 16px 20px;
 }
 .footer__tertiary-link::after{
     content: "";
@@ -794,25 +795,6 @@
     right: 20px;
     margin: auto;
 }
-.footer__tertiary-link--series{
-    padding: 16px 20px 21px;
-}
-.footer__tertiary-link--category{
-    padding: 16px 20px 21px 19.9px;
-}
-.footer__tertiary-link--problem{
-    padding: 16px 20px 21px 19.9px;
-}
-.footer__tertiary-link--astalift{
-    padding: 19px 20px 18px;
-}
-.footer__tertiary-link--beauty{
-    padding: 17px 20px 20px;
-}
-.footer__tertiary-link--gallery{
-    padding: 17px 20px 20px;
-}
-
 /* footer__tertiary-socondary */
 .footer__tertiary-socondary{
     display: flex;
