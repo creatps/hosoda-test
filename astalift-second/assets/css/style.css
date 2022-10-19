@@ -691,9 +691,12 @@
     display: flex;
     justify-content: space-between;
 }
+.footer__tertiary-fanclub-picture{
+    width: calc(( 100% - 15px ) / 2 );
+}
 .footer__tertiary-fanclub-img{
     display: block;
-    width: calc(( 100% - 15px ) / 2 );
+    width: 100%;
 }
 
 /* footer__tertiary-sns */
