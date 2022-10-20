@@ -90,12 +90,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 10px 22px 13px 27px;
+        padding: 12px 22px 14px 27px;
         border: 1px solid var(--lineGray);
         border-radius: 6px;
         font-size: 12px;
         color: var(--colortWhite);
         line-height: 160%;
+        font-family: "Noto Serif JP", serif;
     }
     .header-pc__white-button::after{
         content: "";
@@ -107,7 +108,7 @@
         height: 10px;
         position: absolute;
         top: 12px;
-        right: 39px;
+        right: 35px;
     }
     .header-pc__secondary-list{
         display: flex;
@@ -123,6 +124,7 @@
         font-size: 14px;
         color: var(--colortWhite);
         line-height: 160%;
+        font-family: "Noto Serif JP", serif;
     }
     .header-pc__white-arrow::after{
         content: "";
@@ -130,8 +132,8 @@
         background-image: url("/astalift-second/assets/images/white-arrow.svg");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 10px;
-        height: 5px;
+        width: 14px;
+        height: 7px;
         margin-left: 9px;
     }
 }
@@ -453,7 +455,7 @@
     .products__primary-link{
         display: block;
         /* 影 : 左右,上下,ぼかし指定,色 */
-        box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
     }
     .products__primary-link__img{
     }
