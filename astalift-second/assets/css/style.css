@@ -268,7 +268,7 @@
     color: var(--colorBlack);
     font-size: 12px;
     line-height: 160%;
-    font-family: "Noto Sans JP" sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 @media screen and (min-width: 640px){
     .pick-up{
@@ -633,8 +633,8 @@
     background-image: url("/astalift-second/assets/images/red-arrow.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 5px;
-    height: 10px;
+    width: 7px;
+    height: 14px;
     position: absolute;
     right: 20px;
     top: 0;
@@ -787,8 +787,8 @@
     background-image: url("/astalift-second/assets/images/right_arrow_white.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 5px;
-    height: 10px;
+    width: 7px;
+    height: 14px;
     position: absolute;
     top: 0;
     bottom: 0;
