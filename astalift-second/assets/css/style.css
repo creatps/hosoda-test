@@ -484,14 +484,18 @@
 }
 .products__secondary-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     flex-wrap: wrap;
 }
 .products__secondary-item{
     width: calc(( 100% - 15px ) / 2);
     margin-bottom: 40px;
+    margin-right: 39px;
 }
-.products__secondary-item:last-of-type{
+.products__secondary-item:nth-of-type(3){
+    margin-right: 0;
+}
+.products__secondary-item:nth-last-of-type(-n+2){
     margin-bottom: 0;
 }
 .products__secondary-link{
