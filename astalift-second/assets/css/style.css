@@ -1189,36 +1189,41 @@
         margin-bottom: 35px;
     }
     
+    /* footer__tertiary-unit-second */
+    .footer__tertiary-unit-second{
+        display: flex;
+        /* flex-direction: column; */
+    }
+
     /* footer__tertiary-fanclub */
     .footer__tertiary-fanclub{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin-bottom: 49px;
+        align-items: stretch;
+        margin-bottom: 0;
+        margin-right: 59px;
     }
     .footer__tertiary-fanclub--title{
-        margin-bottom: 26px;
+        margin-bottom: 11px;
     }
     .footer__tertiary-fanclub-link{
         display: flex;
         justify-content: space-between;
     }
     .footer__tertiary-fanclub-picture{
-        width: calc(( 100% - 15px ) / 2 );
     }
     .footer__tertiary-fanclub-img{
         display: block;
-        width: 100%;
+        width: calc(( 252px - 8px ) / 2 );
     }
     /* footer__tertiary-sns */
     .footer__tertiary-sns{
         display: flex;
-        align-items: center;
+        align-items: stretch;
         flex-direction: column;
-        margin-bottom: 33px;
+        margin-bottom: 0;
+        margin-right: 312px;
     }
     .footer__tertiary-sns--title{
-        margin-bottom: 22px;
+        margin-bottom: 20px;
     }
     .footer__tertiary-sns-list{
         display: flex;
@@ -1228,84 +1233,73 @@
     .footer__tertiary-sns-item{
     }
     .footer__tertiary-sns-link{
-        display: flex;
-        align-items: center;
-        font-size: 12px;
-        color: var(--colortWhite);
-        line-height: 160%;
-        font-family: "Playfair Display", serif;
-        /* width: calc(( 100% - 90px ) / 3 ); */
     }
     .footer__tertiary-sns-list--insta{
-        margin-right: 44px;
+        margin-right: 35px;
     }
     .footer__tertiary-sns-list--insta::before{
-        content: "";
-        display: block;
-        background-image: url("/astalift-second/assets/images/instagram.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 20px;
-        height: 20px;
-        margin-right: 8px;
     }
     .footer__tertiary-sns-list--facebook{
-        margin-right: 46.5px;
+        margin-right: 36px;
     }
     .footer__tertiary-sns-list--facebook::before{
-        content: "";
-        display: block;
-        background-image: url("/astalift-second/assets/images/fb.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 22px;
-        height: 22px;
-        margin-right: 7px;
+        width: 21px;
+        height: 21px;
+        margin-right: 8px;
     }
     .footer__tertiary-sns--list-twitter::before{
-        content: "";
-        display: block;
-        background-image: url("/astalift-second/assets/images/twitter.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 24px;
-        height: 20px;
+        width: 23px;
+        height: 19px;
         margin-right: 8px;
     }
     /* footer__tertiary-astaliftmen */
     .footer__tertiary-astaliftmen{
-        margin-bottom: 43px;
-        position: relative;
+        margin-bottom: 0;
+        /* position: relative; */
+        max-width: 252px;
     }
     .footer__tertiary-astaliftmen-link{
         display: block;
-        border: 1px solid #3B4043;
-        padding: 15px 70.5px 9px;
+        border: 0;
+        padding: 0;
     }
     .footer__tertiary-astaliftmen-link::after{
-        content: "";
-        display: block;
-        background-image: url("/astalift-second/assets/images/white-button.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-        top: 10px;
-        right: 10px;
+        display: none;
     }
     .footer__tertiary-astaliftmen-img{
         display: block;
         width: 100%;
     }
 
-
-    /* footer__tertiary-sublist */
-    .footer__tertiary-sublist{
+    /* footer__tertiary-unit-third */
+    .footer__tertiary-unit-third{
         display: flex;
         align-items: center;
-        justify-content: center;
-        margin-bottom: 24px;
+        justify-content: space-between;
+        margin-top: 16px;
+        border-top: 1px solid var(--colorGray);
+    
+    /* .footer__tertiary-unit-third::before{
+        content: "";
+        display: block;
+        border: 1px solid var(--colorGray);
+    } */
+    /* footer__tertiary-copyright */
+    .footer__tertiary-copyright{
+    }
+    .footer__tertiary-copyright-img{
+        width: 73px;
+        margin-right: 32px;
+    }
+    .footer__tertiary-copyright-text{
+        font-size: 11px;
+    }
+    /* footer__tertiary-sublist */
+    .footer__tertiary-sublist{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        margin-bottom: 0;
     }
     .footer__tertiary-sublist-item{
         display: flex;
@@ -1334,21 +1328,16 @@
         line-height: 160%;
         font-family: "Noto Sans JP", sans-serif;
     }
-
-    /* footer__tertiary-copyright */
-    .footer__tertiary-copyright{
-        display: flex;
-        align-items: center;
-    }
-    .footer__tertiary-copyright-img{
+    .footer__tertiary-sublist-link--button::after{
+        content: "";
         display: block;
-        width: 70px;
-        margin-right: 19px;
-    }
-    .footer__tertiary-copyright-text{
-        font-size: 8px;
-        color: var(--colorGray);
-        line-height: 160%;
-        font-family: "Roboto", sans-serif;
+        background-image: url("/astalift-second/assets/images/white-button.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        top: 0;
+        right: -10px;
     }
 }
