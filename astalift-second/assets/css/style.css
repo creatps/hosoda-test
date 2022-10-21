@@ -1271,9 +1271,6 @@
     }
     /* footer__tertiary-sublist */
     .footer__tertiary-sublist{
-        /* display: flex;
-        align-items: center;
-        justify-content: center; */
         margin-bottom: 0;
     }
     .footer__tertiary-sublist-item{
@@ -1282,32 +1279,19 @@
         position: relative;
     }
     .footer__tertiary-sublist-item--border::before{
-        content: "";
-        display: block;
-        width: 1px;
-        height: 11px;
-        background-color: var(--colortWhite);
-        margin: 0 17px;
+        background-color: #CBD2D8;
     }
     .footer__tertiary-sublist-item--border::after{
-        content: "";
-        display: block;
-        width: 1px;
-        height: 11px;
-        background-color: var(--colortWhite);
-        margin: 0 17px;
+        background-color: #CBD2D8;
     }
     .footer__tertiary-sublist-link{
-        font-size: 11px;
-        color: var(--colortWhite);
-        line-height: 160%;
-        font-family: "Noto Sans JP", sans-serif;
+        color: #CBD2D8;
         padding-right: 8px;
     }
     .footer__tertiary-sublist-link--button::after{
         content: "";
         display: block;
-        background-image: url("/astalift-second/assets/images/white-button.svg");
+        background-image: url("/astalift-second/assets/images/gray-button.svg");
         background-size: contain;
         background-repeat: no-repeat;
         width: 8px;
@@ -1319,7 +1303,7 @@
     .footer__tertiary-sublist-link--button-second::after{
         content: "";
         display: block;
-        background-image: url("/astalift-second/assets/images/white-button.svg");
+        background-image: url("/astalift-second/assets/images/gray-button.svg");
         background-size: contain;
         background-repeat: no-repeat;
         width: 8px;
