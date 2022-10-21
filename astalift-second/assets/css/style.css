@@ -816,7 +816,19 @@
     display: block;
     width: 100%;
 }
-
+@media screen and (min-width: 1016px){
+    .footer__secondary{
+        padding: 0 30px;
+        max-width: 356px;
+        margin: 0 auto 60px;
+    }
+    .footer__secondary-link{
+    }
+    .footer__secondary-img{
+        display: block;
+        width: 100%;
+    }    
+}
 /* footer__tertiary */
 .footer__tertiary{
     padding: 42px 0 25px;
