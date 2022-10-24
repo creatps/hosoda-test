@@ -1257,7 +1257,7 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 20px;
-        border-top: 1px solid var(--colorGray);
+        border-top: 1px solid rgba(190, 192, 195 , .2);
         padding: 16px 0 0;
     }
     /* footer__tertiary-copyright */
