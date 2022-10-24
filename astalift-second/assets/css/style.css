@@ -485,13 +485,12 @@
 }
 .products__secondary-list{
     display: flex;
-    justify-content: stretch;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .products__secondary-item{
     width: calc(( 100% - 15px ) / 2);
     margin-bottom: 40px;
-    margin-right: 39px;
 }
 .products__secondary-item:nth-of-type(3){
     margin-right: 0;
@@ -545,10 +544,12 @@
         margin: 0 auto;
         padding: 110px 0;
         max-width: 1016px;
+        justify-content: stretch;
     }
     .products__secondary-item{
         width: calc(( 100% - 78px ) / 3);
         margin-bottom: 72px;
+        margin-right: 39px;
     }
     .products__secondary-item:last-of-type{
         /* margin-bottom: 0; */
