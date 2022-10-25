@@ -36,7 +36,7 @@
     }
     .header-logo__img{
         width: 127px;
-    }    
+    }
 }
 /* header-sp */
 .header-sp{
@@ -163,7 +163,7 @@
         display: block;
         width: 100%;
         margin-bottom: 75px;
-    }    
+    }
 }
 
 /* main-title */
@@ -176,6 +176,7 @@
     font-size: 30px;
     line-height: 160%;
     font-family:"Playfair Display", serif;
+    margin-bottom: 23px;
 }
 .main-title::after{
     margin-top: 2px;
@@ -183,10 +184,11 @@
 @media screen and (min-width: 897px){
     .main-title{
         font-size: 36px;
+        margin-bottom: 49px;
     }
     .main-title::after{
         margin-top: 9px;
-    }        
+    }
 }
 
 /* pick-up */
@@ -228,7 +230,7 @@
 }
 .pick-up__primary-list{
     display: flex;
-    padding: 30px 0 50px 30px;
+    padding: 0 0 50px 30px;
     /* 重ね順 */
     z-index: 1;
 }
@@ -287,7 +289,7 @@
         margin-left: 40px;
     }
     .pick-up__primary-list{
-        padding: 56px 0 94px 50px;
+        padding: 0 0 94px 50px;
     }
     .pick-up__primary-item{
         width: 356px;
@@ -307,7 +309,7 @@
     }
     .pick-up__primary-link__lead{
         font-size: 14px;
-    }    
+    }
 }
 
 /* sub-title */
@@ -337,7 +339,7 @@
     .sub-title::after{
         width: 40px;
         margin-top: 21px;
-    }    
+    }
 }
 
 /* products */
@@ -357,7 +359,6 @@
     color: var(--colorBlack);
     font-size: 14px;
     line-height: 160%;
-    margin-bottom: 25px;
     font-family: "Noto Serif JP", serif;
 }
 @media screen and (min-width: 1016px){
@@ -368,11 +369,10 @@
         align-items: center;
         justify-content: center;
         flex-direction: column; */
-        padding: 110px 0; 
+        padding: 110px 0;
     }
     .products__main-title::after{
         font-size: 18px;
-        margin-bottom: 40px;
     }
 }
 
@@ -476,7 +476,7 @@
     }
     .products__primary-item__note{
         margin-top: 10px;
-    }    
+    }
 }
 
 /* products__secondary */
@@ -573,7 +573,7 @@
     .products__secondary-link-lead{
         font-size: 16px;
         margin-top: 6px;
-    }    
+    }
 }
 
 /* movie */
@@ -590,7 +590,6 @@
     color: var(--colorBlack);
     font-size: 14px;
     line-height: 160%;
-    margin-bottom: 19px;
     font-family: "Noto Serif JP", serif;
 }
 .movie__img{
@@ -611,7 +610,7 @@
         padding: 0 30px;
     }
     .movie__link{
-    }    
+    }
 }
 /* common__btn */
 .common__btn{
@@ -638,7 +637,7 @@
         padding: 17.5px 20px;
         font-size: 16px;
         margin-top: 50px;
-    }    
+    }
 }
 /* news */
 .news{
@@ -655,7 +654,6 @@
     color: var(--colorBlack);
     font-size: 14px;
     line-height: 160%;
-    margin-bottom: 19px;
     font-family: "Noto Serif JP", serif;
 }
 .news__list{
@@ -698,7 +696,6 @@
     }
     .news__title::after{
         font-size: 18px;
-        margin-bottom: 50px;
     }
     .news__list{
     }
@@ -718,7 +715,7 @@
     }
     .news__common-link{
         margin-top: 67px;
-    }    
+    }
 }
 
 /* footer */
