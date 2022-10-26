@@ -29,7 +29,6 @@
     .header{
         padding: 30px 369px 15px 365px;
         flex-direction: column;
-        /* position: relative; */
     }
     .header-logo{
         margin-bottom: 24px;
@@ -153,9 +152,6 @@
     display: none;
 }
 @media screen and (min-width: 897px){
-    .main-visual{
-
-    }
     .main-visual__sp-img{
         display: none;
     }
@@ -343,8 +339,6 @@
 }
 
 /* products */
-.products{
-}
 .products__main{
     display: flex;
     align-items: center;
@@ -362,13 +356,7 @@
     font-family: "Noto Serif JP", serif;
 }
 @media screen and (min-width: 1016px){
-    .products{
-    }
     .products__main{
-        /* display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column; */
         padding: 110px 0;
     }
     .products__main-title::after{
@@ -382,8 +370,6 @@
 }
 .products__primary:last-of-type{
     margin-bottom: 0;
-}
-.products__sub-title{
 }
 .products__primary-list{
     display: flex;
@@ -427,8 +413,6 @@
     font-family: "Noto Serif JP", serif;
     flex-grow: 1;
 }
-.products__primary-link__lead-br{
-}
 .products__primary-item__note{
     font-size: 10px;
     line-height: 1.6;
@@ -442,10 +426,6 @@
         max-width: 1016px;
         padding: 0 30px;
     }
-    .products__primary:last-of-type{
-    }
-    .products__sub-title{
-    }
     .products__primary-list{
         margin: 0 auto;
     }
@@ -457,8 +437,6 @@
         display: block;
         /* 影 : 左右,上下,ぼかし指定,色 */
         box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
-    }
-    .products__primary-link__img{
     }
     .products__primary-link__text{
         padding: 20px;
@@ -505,8 +483,6 @@
     display: block;
     width: 100%;
 }
-.products__secondary-link-text{
-}
 .products__secondary-link-title{
     display: flex;
     align-items: center;
@@ -538,9 +514,6 @@
         padding: 0;
     }
     .products__secondary-list{
-        /* display: flex;
-        flex-wrap: wrap; */
-        /* justify-content: space-between; */
         margin: 0 auto;
         padding: 110px 0;
         max-width: 1016px;
@@ -550,16 +523,6 @@
         width: calc(( 100% - 78px ) / 3);
         margin-bottom: 72px;
         margin-right: 39px;
-    }
-    .products__secondary-item:last-of-type{
-        /* margin-bottom: 0; */
-    }
-    .products__secondary-link{
-        /* display: block; */
-    }
-    .products__secondary-img{
-    }
-    .products__secondary-link-text{
     }
     .products__secondary-link-title{
         font-size: 24px;
@@ -596,8 +559,6 @@
     display: block;
     width: 100%;
 }
-.movie__link{
-}
 @media screen and (min-width: 1016px){
     .movie{
         margin-bottom: 91px;
@@ -608,8 +569,6 @@
     .movie__img{
         width: 1016px;
         padding: 0 30px;
-    }
-    .movie__link{
     }
 }
 /* common__btn */
@@ -656,8 +615,6 @@
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
-.news__list{
-}
 .news__item--pc{
     display: none;
 }
@@ -686,8 +643,6 @@
     /* 下線を引く */
     text-decoration: underline;
 }
-.news__common-link{
-}
 @media screen and (min-width: 1016px){
     .news{
         padding: 0 30px;
@@ -697,21 +652,11 @@
     .news__title::after{
         font-size: 18px;
     }
-    .news__list{
-    }
     .news__item--pc{
         display: block;
     }
-    .news__item{
-    }
-    .news__item:last-of-type{
-    }
     .news__link{
         padding: 16px 31px 16px 23px;
-    }
-    .news__link-date{
-    }
-    .news__link-text{
     }
     .news__common-link{
         margin-top: 67px;
@@ -719,9 +664,6 @@
 }
 
 /* footer */
-.footer{
-}
-
 /* footer__primary */
 .footer__primary{
     margin-bottom: 49px;
@@ -794,11 +736,9 @@
     .footer__primary-img{
         margin-right: 15px;
     }
-    .footer__primary-title{
-    }
     .footer__primary-title::after{
         display: none;
-    }    
+    }
 }
 /* footer__secondary */
 .footer__secondary{
@@ -825,20 +765,16 @@
         max-width: 356px;
         margin: 0 auto 60px;
     }
-    .footer__secondary-link{
-    }
     .footer__secondary-img{
         display: block;
         width: 100%;
-    }    
+    }
 }
 
 /* footer__tertiary */
 .footer__tertiary{
     padding: 42px 0 25px;
     background-color: var(--colorBlack);
-}
-.footer__tertiary--sp{
 }
 .footer__tertiary--pc{
     display: none;
@@ -889,8 +825,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.footer__tertiary-sns-item{
-}
 .footer__tertiary-sns-link{
     display: flex;
     align-items: center;
@@ -898,7 +832,6 @@
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Playfair Display", serif;
-    /* width: calc(( 100% - 90px ) / 3 ); */
 }
 .footer__tertiary-sns-list--insta{
     margin-right: 44px;
@@ -1155,15 +1088,9 @@
         padding: 0;
         width: 100%;
         margin-right: 140px;
-        /* box-sizing: border-box; */
-        /* position: relative; */
     }
     .footer__tertiary-socondary-link{
-        /* display: block; */
         font-size: 15px;
-        /* color: var(--colortWhite);
-        line-height: 1.6;
-        font-family: "Noto Serif JP", serif; */
     }
     .footer__tertiary-socondary-link:first-of-type{
         margin-bottom: 35px;
@@ -1187,8 +1114,6 @@
         display: flex;
         justify-content: space-between;
     }
-    .footer__tertiary-fanclub-picture{
-    }
     .footer__tertiary-fanclub-img{
         display: block;
         width: calc(( 252px - 8px ) / 2 );
@@ -1209,14 +1134,8 @@
         align-items: center;
         justify-content: space-between;
     }
-    .footer__tertiary-sns-item{
-    }
-    .footer__tertiary-sns-link{
-    }
     .footer__tertiary-sns-list--insta{
         margin-right: 35px;
-    }
-    .footer__tertiary-sns-list--insta::before{
     }
     .footer__tertiary-sns-list--facebook{
         margin-right: 36px;
@@ -1234,7 +1153,6 @@
     /* footer__tertiary-astaliftmen */
     .footer__tertiary-astaliftmen{
         margin-bottom: 0;
-        /* position: relative; */
     }
     .footer__tertiary-astaliftmen-link{
         display: block;
@@ -1259,8 +1177,6 @@
         padding: 16px 0 0;
     }
     /* footer__tertiary-copyright */
-    .footer__tertiary-copyright{
-    }
     .footer__tertiary-copyright-img{
         width: 73px;
         margin-right: 32px;
