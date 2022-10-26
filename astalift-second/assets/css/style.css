@@ -805,11 +805,12 @@
 .footer__tertiary-fanclub--title{
     margin-bottom: 26px;
 }
-.footer__tertiary-fanclub-link{
+.footer__tertiary-fanclub-link-box{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.footer__tertiary-fanclub-picture{
+.footer__tertiary-fanclub-link{
     width: calc(( 100% - 15px ) / 2 );
 }
 .footer__tertiary-fanclub-img{
@@ -1105,24 +1106,30 @@
     /* footer__tertiary-unit-second */
     .footer__tertiary-unit-second{
         display: flex;
+        justify-content: space-between;
+        position: relative;
     }
 
     /* footer__tertiary-fanclub */
     .footer__tertiary-fanclub{
         align-items: stretch;
         margin-bottom: 0;
-        margin-right: 59px;
     }
     .footer__tertiary-fanclub--title{
         margin-bottom: 11px;
     }
-    .footer__tertiary-fanclub-link{
+    .footer__tertiary-fanclub-link-box{
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+        width: 252px;
+    }
+    .footer__tertiary-fanclub-link{
+        width: calc(( 100% - 8px ) / 2 );
     }
     .footer__tertiary-fanclub-img{
         display: block;
-        width: calc(( 252px - 8px ) / 2 );
+        width: 100%;
     }
     /* footer__tertiary-sns */
     .footer__tertiary-sns{
@@ -1130,7 +1137,10 @@
         align-items: stretch;
         flex-direction: column;
         margin-bottom: 0;
-        margin-right: 312px;
+        /* margin-right: 312px; */
+        position: absolute;
+        top: 0;
+        left: 311px;
     }
     .footer__tertiary-sns--title{
         margin-bottom: 20px;
@@ -1170,7 +1180,7 @@
     }
     .footer__tertiary-astaliftmen-img{
         display: block;
-        width: 100%;
+        width: 252px;
     }
 
     /* footer__tertiary-unit-third */
