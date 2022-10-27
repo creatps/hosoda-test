@@ -19,8 +19,6 @@
     background-color: var(--colorBlack);
     position: relative;
 }
-.header-logo{
-}
 .header-logo__img{
     display: block;
     width: 10.5rem;
@@ -46,21 +44,21 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 24px;
-    height: 12px;
+    width: 2.4rem;
+    height: 1.2rem;
     position: absolute;
-    top: 24px;
-    right: 14px;
+    top: 2.4rem;
+    right: 1.4rem;
 }
 .hamburger-icon__line{
     width: 100%;
-    height: 1px;
+    height: 0.1rem;
     background-color: var(--colortWhite);
 }
 .header-pc{
     display: none;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .header-sp{
         display: none;
     }
@@ -74,12 +72,12 @@
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 1.0rem;
+        right: 1.0rem;
     }
     .header-pc__primary-item{
-        width: 148px;
-        margin-right: 5px;
+        width: 14.8rem;
+        margin-right: 0.5rem;
         position: relative;
     }
     .header-pc__primary-item:last-of-type{
@@ -89,10 +87,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 12px 22px 14px 27px;
-        border: 1px solid var(--lineGray);
-        border-radius: 6px;
-        font-size: 12px;
+        padding: 1.2rem 2.2rem 1.4rem 2.7rem;
+        border: 0.1rem solid var(--lineGray);
+        border-radius: 0.6rem;
+        font-size: 1.2rem;
         color: var(--colortWhite);
         line-height: 1.6;
         font-family: "Noto Serif JP", serif;
@@ -103,11 +101,11 @@
         background-image: url("/astalift-second/assets/images/white-button.svg");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 10px;
-        height: 10px;
+        width: 1.0rem;
+        height: 1.0rem;
         position: absolute;
-        top: 12px;
-        right: 35px;
+        top: 1.2rem;
+        right: 3.5rem;
     }
     .header-pc__secondary-list{
         display: flex;
@@ -116,12 +114,12 @@
         flex-shrink: 0;
     }
     .header-pc__secondary-item:nth-of-type(-n+3){
-        margin-right: 70px;
+        margin-right: 7.0rem;
     }
     .header-pc__secondary-link{
         display: flex;
         align-items: center;
-        font-size: 14px;
+        font-size: 1.4rem;
         color: var(--colortWhite);
         line-height: 1.6;
         font-family: "Noto Serif JP", serif;
@@ -132,9 +130,9 @@
         background-image: url("/astalift-second/assets/images/white-arrow.svg");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 14px;
-        height: 7px;
-        margin-left: 9px;
+        width: 1.4rem;
+        height: 0.7rem;
+        margin-left: 0.9rem;
     }
 }
 
@@ -146,19 +144,19 @@
 .main-visual__sp-img{
     display: block;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 4.0rem;
 }
 .main-visual__pc-img{
     display: none;
 }
-@media screen and (min-width: 897px){
+@media screen and (min-width: 89.7rem){
     .main-visual__sp-img{
         display: none;
     }
     .main-visual__pc-img{
         display: block;
         width: 100%;
-        margin-bottom: 75px;
+        margin-bottom: 7.5rem;
     }
 }
 
@@ -169,21 +167,21 @@
     /* 縦並び */
     flex-direction: column;
     color: var(--mainRed);
-    font-size: 30px;
+    font-size: 3.0rem;
     line-height: 1.6;
     font-family:"Playfair Display", serif;
-    margin-bottom: 23px;
+    margin-bottom: 2.3rem;
 }
 .main-title::after{
-    margin-top: 2px;
+    margin-top: 0.2rem;
 }
-@media screen and (min-width: 897px){
+@media screen and (min-width: 89.7rem){
     .main-title{
-        font-size: 36px;
-        margin-bottom: 49px;
+        font-size: 3.6rem;
+        margin-bottom: 4.9rem;
     }
     .main-title::after{
-        margin-top: 9px;
+        margin-top: 0.9rem;
     }
 }
 
@@ -193,13 +191,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 5.0rem;
 }
 .pick-up__title::after{
     content: "ピックアップ";
     display: flex;
     color: var(--colorBlack);
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
@@ -209,9 +207,9 @@
     overflow-x: hidden;
     position: relative;
     width: 95%;
-    margin-left: 20px;
+    margin-left: 2.0rem;
     /* 影 : 左右,上下,ぼかし指定,色 */
-    box-shadow: 40px 20px 20px rgba(12, 8, 21, .3);
+    box-shadow: 4.0rem 2.0rem 2.0rem rgba(12, 8, 21, .3);
 }
 .pick-up__primary::before{
     content: "";
@@ -226,17 +224,17 @@
 }
 .pick-up__primary-list{
     display: flex;
-    padding: 0 0 50px 30px;
+    padding: 0 0 5.0rem 3.0rem;
     /* 重ね順 */
     z-index: 1;
 }
 .pick-up__primary-item{
-    width: 250px;
-    margin-right: 20px;
+    width: 25.0rem;
+    margin-right: 2.0rem;
     flex-shrink: 0;
     flex-grow: 0;
     /* 影 : 左右,上下,ぼかし指定,色 */
-    box-shadow: 0 20px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 2.0rem 1.0rem rgba(0, 0, 0, .2);
 }
 .pick-up__primary-link{
     display: flex;
@@ -249,62 +247,62 @@
 }
 .pick-up__primary-link__text{
     background-color: var(--colortWhite);
-    padding: 14px 20px 20px;
+    padding: 1.4rem 2.0rem 2.0rem;
     flex-grow: 1;
 }
 .pick-up__primary-link__title{
     color: var(--colorBlack);
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
 .pick-up__primary-link__title::after{
     content: "";
     display: block;
-    border: 1px solid var(--mainRed);
-    width: 20px;
-    margin: 8px 0;
+    border: 0.1rem solid var(--mainRed);
+    width: 2.0rem;
+    margin: 0.8rem 0;
 }
 .pick-up__primary-link__lead{
     color: var(--colorBlack);
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 1.6;
     font-family: "Noto Sans JP", sans-serif;
 }
-@media screen and (min-width: 640px){
+@media screen and (min-width: 64.0rem){
     .pick-up{
-        margin-bottom: 100px;
+        margin-bottom: 10.0rem;
     }
     .pick-up__title::after{
-        font-size: 18px;
-        margin-top: 9px;
+        font-size: 1.8rem;
+        margin-top: 0.9rem;
     }
     .pick-up__primary{
         position: relative;
         width: 98%;
-        margin-left: 40px;
+        margin-left: 4.0rem;
     }
     .pick-up__primary-list{
-        padding: 0 0 94px 50px;
+        padding: 0 0 9.4rem 5.0rem;
     }
     .pick-up__primary-item{
-        width: 356px;
-        margin-right: 60px;
+        width: 35.6rem;
+        margin-right: 6.0rem;
         /* 影 : 左右,上下,ぼかし指定,色 */
-        box-shadow: 50px 20px 20px rgba(12, 8, 21, .3);
+        box-shadow: 5.0rem 2.0rem 2.0rem rgba(12, 8, 21, .3);
     }
     .pick-up__primary-link__text{
-        padding: 22px 27px 30px 28px;
+        padding: 2.2rem 2.7rem 3.0rem 2.8rem;
     }
     .pick-up__primary-link__title{
-        font-size: 20px;
+        font-size: 2.0rem;
     }
     .pick-up__primary-link__title::after{
-        border: 2px solid var(--mainRed);
-        margin: 16px 0 18px;
+        border: 0.2rem solid var(--mainRed);
+        margin: 1.6rem 0 1.8rem;
     }
     .pick-up__primary-link__lead{
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 }
 
@@ -313,28 +311,28 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: var(--colorBlack);
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
-    margin-bottom: 29px;
+    margin-bottom: 2.9rem;
 }
 .sub-title::after{
     content: "";
     display: block;
-    border: 1px solid var(--mainRed);
-    width: 30px;
-    margin-top: 13px;
+    border: 0.1rem solid var(--mainRed);
+    width: 3.0rem;
+    margin-top: 1.3rem;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .sub-title{
         align-items: stretch;
-        font-size: 24px;
-        margin-bottom: 30px;
+        font-size: 2.4rem;
+        margin-bottom: 3.0rem;
     }
     .sub-title::after{
-        width: 40px;
-        margin-top: 21px;
+        width: 4.0rem;
+        margin-top: 2.1rem;
     }
 }
 
@@ -344,29 +342,29 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 20px 80px;
+    padding: 6.0rem 2.0rem 8.0rem;
     background-color: var(--backGray);
 }
 .products__main-title::after{
     content: "商品情報";
     display: flex;
     color: var(--colorBlack);
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .products__main{
-        padding: 110px 0;
+        padding: 11.0rem 0;
     }
     .products__main-title::after{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 }
 
 /* products__primary */
 .products__primary{
-    margin-bottom: 60px;
+    margin-bottom: 6.0rem;
 }
 .products__primary:last-of-type{
     margin-bottom: 0;
@@ -377,8 +375,8 @@
     justify-content: space-between;
 }
 .products__primary-item{
-    width: calc(( 100% - 15px ) / 2);
-    margin-bottom: 20px;
+    width: calc(( 100% - 1.5rem ) / 2);
+    margin-bottom: 2.0rem;
 }
 .products__primary-item:nth-last-of-type(-n+2){
     margin-bottom: 0;
@@ -386,7 +384,7 @@
 .products__primary-link{
     display: block;
     /* 影 : 左右,上下,ぼかし指定,色 */
-    box-shadow: 0 8px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0.8rem 1.0rem rgba(0, 0, 0, .2);
 }
 .products__primary-link__img{
     display: block;
@@ -395,46 +393,46 @@
 .products__primary-link__text{
     display: flex;
     flex-direction: column;
-    padding: 12px 13px;
+    padding: 1.2rem 1.3rem;
     flex-grow: 1;
     background-color: var(--colortWhite);
 }
 .products__primary-link__title{
-    font-size: 10px;
+    font-size: 1.0rem;
     line-height: 1.6;
     color: var(--colorBlack);
     font-family: 'Noto Sans JP', sans-serif;
-    border: 1px solid var(--colorGray);
-    padding: 2px 6px;
+    border: 0.1rem solid var(--colorGray);
+    padding: 0.2rem 0.6rem;
     width: fit-content;
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
 }
 .products__primary-link__lead{
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.6;
     color: var(--colorBlack);
     font-family: "Noto Serif JP", serif;
     flex-grow: 1;
 }
 .products__primary-item__note{
-    font-size: 10px;
+    font-size: 1.0rem;
     line-height: 1.6;
     color: #3B4043;
-    margin-top: 8px;
+    margin-top: 0.8rem;
     font-family: 'Noto Sans JP', sans-serif;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .products__primary{
-        margin-bottom: 70px;
-        max-width: 1016px;
-        padding: 0 30px;
+        margin-bottom: 7.0rem;
+        max-width: 101.6rem;
+        padding: 0 3.0rem;
     }
     .products__primary-list{
         margin: 0 auto;
     }
     .products__primary-item{
-        width: calc(( 100% - 80px ) / 3);
-        margin-bottom: 30px;
+        width: calc(( 100% - 8.0rem ) / 3);
+        margin-bottom: 3.0rem;
     }
     .products__primary-item:nth-last-of-type(-n+1){
         margin-bottom: 0;
@@ -442,30 +440,30 @@
     .products__primary-link{
         display: block;
         /* 影 : 左右,上下,ぼかし指定,色 */
-        box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+        box-shadow: 0 1.0rem 1.5rem rgba(0, 0, 0, .2);
     }
     .products__primary-link__text{
-        padding: 20px;
+        padding: 2.0rem;
     }
     .products__primary-link__title{
-        font-size: 12px;
-        padding: 2px 10px;
-        margin-bottom: 5px;
+        font-size: 1.2rem;
+        padding: 0.2rem 1.0rem;
+        margin-bottom: 0.5rem;
     }
     .products__primary-link__lead{
-        font-size: 20px;
+        font-size: 2.0rem;
     }
     .products__primary-link__lead-br{
         display: none;
     }
     .products__primary-item__note{
-        margin-top: 10px;
+        margin-top: 1.0rem;
     }
 }
 
 /* products__secondary */
 .products__secondary{
-    padding: 60px 20px 80px;
+    padding: 6.0rem 2.0rem 8.0rem;
 }
 .products__secondary-list{
     display: flex;
@@ -473,8 +471,8 @@
     flex-wrap: wrap;
 }
 .products__secondary-item{
-    width: calc(( 100% - 15px ) / 2);
-    margin-bottom: 40px;
+    width: calc(( 100% - 1.5rem ) / 2);
+    margin-bottom: 4.0rem;
 }
 .products__secondary-item:nth-of-type(3){
     margin-right: 0;
@@ -492,11 +490,11 @@
 .products__secondary-link-title{
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.6;
     color: var(--mainRed);
     font-family: "Noto Serif JP", serif;
-    margin-top: 13px;
+    margin-top: 1.3rem;
 }
 .products__secondary-link-title::after{
     content: "";
@@ -504,44 +502,44 @@
     background-image: url("/astalift-second/assets/images/red-arrow.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 6px;
-    height: 12px;
-    margin-left: 8px;
+    width: 0.6rem;
+    height: 1.2rem;
+    margin-left: 0.8rem;
 }
 .products__secondary-link-lead{
-    font-size: 12px;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: var(--colorBlack);
     font-family: "Noto Serif JP", serif;
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .products__secondary{
         padding: 0;
     }
     .products__secondary-list{
         margin: 0 auto;
-        padding: 110px 0;
-        max-width: 1016px;
+        padding: 11.0rem 0;
+        max-width: 101.6rem;
         justify-content: stretch;
     }
     .products__secondary-item{
-        width: calc(( 100% - 78px ) / 3);
-        margin-bottom: 72px;
-        margin-right: 39px;
+        width: calc(( 100% - 7.8rem ) / 3);
+        margin-bottom: 7.2rem;
+        margin-right: 3.9rem;
     }
     .products__secondary-link-title{
-        font-size: 24px;
-        margin-top: 15px;
+        font-size: 2.4rem;
+        margin-top: 1.5rem;
     }
     .products__secondary-link-title::after{
-        width: 8px;
-        height: 16px;
-        margin-left: 10px;
+        width: 0.8rem;
+        height: 1.6rem;
+        margin-left: 1.0rem;
     }
     .products__secondary-link-lead{
-        font-size: 16px;
-        margin-top: 6px;
+        font-size: 1.6rem;
+        margin-top: 0.6rem;
     }
 }
 
@@ -551,13 +549,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 8.0rem;
 }
 .movie__title::after{
     content: "ブランドムービー";
     display: block;
     color: var(--colorBlack);
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
@@ -565,16 +563,16 @@
     display: block;
     width: 100%;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .movie{
-        margin-bottom: 91px;
+        margin-bottom: 9.1rem;
     }
     .movie__title{
         display: none;
     }
     .movie__img{
-        width: 1016px;
-        padding: 0 30px;
+        width: 101.6rem;
+        padding: 0 3.0rem;
     }
 }
 /* common__btn */
@@ -582,26 +580,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 195px;
-    padding: 14px 32px 14px 31px;
+    width: 19.5rem;
+    padding: 1.4rem 3.2rem 1.4rem 3.1rem;
     background: linear-gradient(to right, rgba(215, 6, 59, 1) ,rgba(105, 3, 31, 1) , black 140%);
-    font-size: 14px;
+    font-size: 1.4rem;
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
-    border-radius: 6px;
-    margin-top: 30px;
+    border-radius: 0.6rem;
+    margin-top: 3.0rem;
     /* 影 : 左右,上下,ぼかし指定,色 */
-    box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, .3);
     /* paddingとborderがwidthとheightの中に含まれるようになる。 */
     box-sizing: border-box
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .common__btn{
-        width: 356px;
-        padding: 17.5px 20px;
-        font-size: 16px;
-        margin-top: 50px;
+        width: 35.6rem;
+        padding: 1.75rem 2.0rem;
+        font-size: 1.6rem;
+        margin-top: 5.0rem;
     }
 }
 /* news */
@@ -610,14 +608,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 20px;
-    margin-bottom: 53px;
+    padding: 0 2.0rem;
+    margin-bottom: 5.3rem;
 }
 .news__title::after{
     content: "お知らせ";
     display: block;
     color: var(--colorBlack);
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
@@ -625,78 +623,78 @@
     display: none;
 }
 .news__item{
-    border-top: 1px solid var(--lineGray);
+    border-top: 0.1rem solid var(--lineGray);
 }
 .news__item:last-of-type{
-    border-bottom: 1px solid var(--lineGray);
+    border-bottom: 0.1rem solid var(--lineGray);
 }
 .news__link{
     display: flex;
-    padding: 16px 0;
+    padding: 1.6rem 0;
 }
 .news__link-date{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #86898E;
     line-height: 1.6;
-    margin-right: 14px;
+    margin-right: 1.4rem;
     font-family: "Noto Serif JP", serif;
 }
 .news__link-text{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: var(--colorBlack);
     line-height: 1.6;
     font-family: "Noto Sans JP", sans-serif;
     /* 下線を引く */
     text-decoration: underline;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .news{
-        padding: 0 30px;
-        margin: 0 auto 95px;
-        max-width: 980px;
+        padding: 0 3.0rem;
+        margin: 0 auto 9.5rem;
+        max-width: 98.0rem;
     }
     .news__title::after{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
     .news__item--pc{
         display: block;
     }
     .news__link{
-        padding: 16px 31px 16px 23px;
+        padding: 1.6rem 3.1rem 1.6rem 2.3rem;
     }
     .news__common-link{
-        margin-top: 67px;
+        margin-top: 6.7rem;
     }
 }
 
 /* footer */
 /* footer__primary */
 .footer__primary{
-    margin-bottom: 49px;
+    margin-bottom: 4.9rem;
 }
 .footer__primary-list{
     display: flex;
     flex-direction: column;
 }
 .footer__primary-item{
-    border-top: 1px solid var(--lineGray);
+    border-top: 0.1rem solid var(--lineGray);
 }
 .footer__primary-item:last-of-type{
-    border-bottom: 1px solid var(--lineGray);
+    border-bottom: 0.1rem solid var(--lineGray);
 }
 .footer__primary-link{
     display: flex;
     align-items: center;
-    padding: 5px 20px 5px 11px;
+    padding: 0.5rem 2.0rem 0.5rem 1.1rem;
     position: relative;
 }
 .footer__primary-img{
     display: block;
-    width: 65px;
-    margin-right: 23px;
+    width: 6.5rem;
+    margin-right: 2.3rem;
 }
 .footer__primary-title{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: var(--colorBlack);
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
@@ -707,19 +705,19 @@
     background-image: url("/astalift-second/assets/images/red-arrow.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 7px;
-    height: 14px;
+    width: 0.7rem;
+    height: 1.4rem;
     position: absolute;
-    right: 20px;
+    right: 2.0rem;
     top: 0;
     bottom: 0;
     margin: auto;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .footer__primary{
-        max-width: 1188px;
-        margin: 0 auto 50px;
-        padding: 0 30px;
+        max-width: 118.8rem;
+        margin: 0 auto 5.0rem;
+        padding: 0 3.0rem;
     }
     .footer__primary-list{
         flex-direction: row;
@@ -728,19 +726,19 @@
         flex-wrap: wrap;
     }
     .footer__primary-item{
-        width: calc(( 100% - 120px ) / 3 );
+        width: calc(( 100% - 12.0rem ) / 3 );
     }
     .footer__primary-item:last-of-type{
         border-bottom: 0;
     }
     .footer__primary-item:nth-last-of-type(-n+3){
-        border-bottom: 1px solid var(--lineGray);
+        border-bottom: 0.1rem solid var(--lineGray);
     }
     .footer__primary-link{
-        padding: 13px 24px;
+        padding: 1.3rem 2.4rem;
     }
     .footer__primary-img{
-        margin-right: 15px;
+        margin-right: 1.5rem;
     }
     .footer__primary-title::after{
         display: none;
@@ -748,28 +746,28 @@
 }
 /* footer__secondary */
 .footer__secondary{
-    padding: 0 20px;
-    margin-bottom: 60px;
+    padding: 0 2.0rem;
+    margin-bottom: 6.0rem;
 }
 .footer__secondary-link{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--colortWhite);
-    border-radius: 6px;
-    padding: 2px 0;
+    border-radius: 0.6rem;
+    padding: 0.2rem 0;
     /* 影 : 左右,上下,ぼかし指定,色 */
-    box-shadow: 0 3px 4px rgba(0, 0, 0, .2);
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, .2);
 }
 .footer__secondary-img{
     display: block;
     width: 100%;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     .footer__secondary{
-        padding: 0 30px;
-        max-width: 356px;
-        margin: 0 auto 60px;
+        padding: 0 3.0rem;
+        max-width: 35.6rem;
+        margin: 0 auto 6.0rem;
     }
     .footer__secondary-img{
         display: block;
@@ -779,18 +777,18 @@
 
 /* footer__tertiary */
 .footer__tertiary{
-    padding: 42px 0 25px;
+    padding: 4.2rem 0 2.5rem;
     background-color: var(--colorBlack);
 }
 .footer__tertiary--pc{
     display: none;
 }
 .footer__tertiary-padding{
-    padding: 0 20px;
+    padding: 0 2.0rem;
 }
 /* footer__title */
 .footer__title{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
@@ -800,10 +798,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 49px;
+    margin-bottom: 4.9rem;
 }
 .footer__tertiary-fanclub--title{
-    margin-bottom: 26px;
+    margin-bottom: 2.6rem;
 }
 .footer__tertiary-fanclub-link-box{
     display: flex;
@@ -811,7 +809,7 @@
     flex-wrap: wrap;
 }
 .footer__tertiary-fanclub-link{
-    width: calc(( 100% - 15px ) / 2 );
+    width: calc(( 100% - 1.5rem ) / 2 );
 }
 .footer__tertiary-fanclub-img{
     display: block;
@@ -822,10 +820,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 33px;
+    margin-bottom: 3.3rem;
 }
 .footer__tertiary-sns--title{
-    margin-bottom: 22px;
+    margin-bottom: 2.2rem;
 }
 .footer__tertiary-sns-list{
     display: flex;
@@ -835,13 +833,13 @@
 .footer__tertiary-sns-link{
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Playfair Display", serif;
 }
 .footer__tertiary-sns-list--insta{
-    margin-right: 44px;
+    margin-right: 4.4rem;
 }
 .footer__tertiary-sns-list--insta::before{
     content: "";
@@ -849,12 +847,12 @@
     background-image: url("/astalift-second/assets/images/instagram.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 20px;
-    height: 20px;
-    margin-right: 8px;
+    width: 2.0rem;
+    height: 2.0rem;
+    margin-right: 0.8rem;
 }
 .footer__tertiary-sns-list--facebook{
-    margin-right: 46.5px;
+    margin-right: 4.65rem;
 }
 .footer__tertiary-sns-list--facebook::before{
     content: "";
@@ -862,9 +860,9 @@
     background-image: url("/astalift-second/assets/images/fb.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 22px;
-    height: 22px;
-    margin-right: 7px;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 0.7rem;
 }
 .footer__tertiary-sns--list-twitter::before{
     content: "";
@@ -872,29 +870,29 @@
     background-image: url("/astalift-second/assets/images/twitter.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 24px;
-    height: 20px;
-    margin-right: 8px;
+    width: 2.4rem;
+    height: 2.0rem;
+    margin-right: 0.8rem;
 }
 
 /* footer__tertiary-list */
 .footer__tertiary-list{
-    margin-bottom: 31px;
+    margin-bottom: 3.1rem;
 }
 .footer__tertiary-item{
-    border-top: 1px solid #222222;
+    border-top: 0.1rem solid #222222;
     position: relative;
 }
 .footer__tertiary-item:last-of-type{
-    border-bottom: 1px solid #222222;
+    border-bottom: 0.1rem solid #222222;
 }
 .footer__tertiary-link{
     display: block;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
-    padding: 16px 20px;
+    padding: 1.6rem 2.0rem;
 }
 .footer__tertiary-link::after{
     content: "";
@@ -902,12 +900,12 @@
     background-image: url("/astalift-second/assets/images/right_arrow_white.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    width: 7px;
-    height: 14px;
+    width: 0.7rem;
+    height: 1.4rem;
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 20px;
+    right: 2.0rem;
     margin: auto;
 }
 /* footer__tertiary-socondary */
@@ -915,20 +913,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 2.0rem;
 }
 .footer__tertiary-socondary-item{
     text-align: center;
-    border: 1px solid var(--lineGray);
-    border-radius: 6px;
-    padding: 15px 20px;
-    width: calc(( 100% - 7px ) / 2 );
+    border: 0.1rem solid var(--lineGray);
+    border-radius: 0.6rem;
+    padding: 1.5rem 2.0rem;
+    width: calc(( 100% - 0.7rem ) / 2 );
     box-sizing: border-box;
     position: relative;
 }
 .footer__tertiary-socondary-link{
     display: block;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
@@ -939,22 +937,22 @@
     background-image: url("/astalift-second/assets/images/white-button.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
+    width: 1.0rem;
+    height: 1.0rem;
     position: absolute;
-    top: 14px;
-    right: 47px;
+    top: 1.4rem;
+    right: 4.7rem;
 }
 
 /* footer__tertiary-astaliftmen */
 .footer__tertiary-astaliftmen{
-    margin-bottom: 43px;
+    margin-bottom: 4.3rem;
     position: relative;
 }
 .footer__tertiary-astaliftmen-link{
     display: block;
-    border: 1px solid #3B4043;
-    padding: 15px 70.5px 9px;
+    border: 0.1rem solid #3B4043;
+    padding: 1.5rem 7.05rem 0.9rem;
 }
 .footer__tertiary-astaliftmen-link::after{
     content: "";
@@ -962,11 +960,11 @@
     background-image: url("/astalift-second/assets/images/white-button.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 10px;
-    height: 10px;
+    width: 1.0rem;
+    height: 1.0rem;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1.0rem;
+    right: 1.0rem;
 }
 .footer__tertiary-astaliftmen-img{
     display: block;
@@ -978,7 +976,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
+    margin-bottom: 2.4rem;
 }
 .footer__tertiary-sublist-item{
     display: flex;
@@ -988,21 +986,21 @@
 .footer__tertiary-sublist-item--border::before{
     content: "";
     display: block;
-    width: 1px;
-    height: 11px;
+    width: 0.1rem;
+    height: 1.1rem;
     background-color: var(--colortWhite);
-    margin: 0 17px;
+    margin: 0 1.7rem;
 }
 .footer__tertiary-sublist-item--border::after{
     content: "";
     display: block;
-    width: 1px;
-    height: 11px;
+    width: 0.1rem;
+    height: 1.1rem;
     background-color: var(--colortWhite);
-    margin: 0 17px;
+    margin: 0 1.7rem;
 }
 .footer__tertiary-sublist-link{
-    font-size: 11px;
+    font-size: 1.1rem;
     color: var(--colortWhite);
     line-height: 1.6;
     font-family: "Noto Sans JP", sans-serif;
@@ -1015,19 +1013,19 @@
 }
 .footer__tertiary-copyright-img{
     display: block;
-    width: 70px;
-    margin-right: 19px;
+    width: 7.0rem;
+    margin-right: 1.9rem;
 }
 .footer__tertiary-copyright-text{
-    font-size: 8px;
+    font-size: 0.8rem;
     color: var(--colorGray);
     line-height: 1.6;
     font-family: "Roboto", sans-serif;
 }
-@media screen and (min-width: 1016px){
+@media screen and (min-width: 101.6rem){
     /* footer__tertiary */
     .footer__tertiary{
-        padding: 50px 0 15px;
+        padding: 5.0rem 0 1.5rem;
     }
     .footer__tertiary--sp{
         display: none;
@@ -1036,20 +1034,20 @@
         display: block;
     }
     .footer__tertiary-content{
-        max-width: 1188px;
+        max-width: 118.8rem;
         margin: 0 auto;
-        padding: 0 30px;
+        padding: 0 3.0rem;
         flex-shrink: 0;
     }
 
     /* footer__title */
     .footer__title{
-        font-size: 12px;
+        font-size: 1.2rem;
         font-family: "A-OTF A1 Mincho Std", serif;
     }
 
     .footer__tertiary-unit{
-        margin-bottom: 73px;
+        margin-bottom: 7.3rem;
         display: flex;
         justify-content: space-between;
     }
@@ -1063,20 +1061,20 @@
         border-top: 0;
         display: flex;
         flex-direction: column;
-        margin-right: 160px;
+        margin-right: 16.0rem;
         flex-shrink: 0;
     }
     .footer__tertiary-item:last-of-type{
         border-bottom: 0;
     }
     .footer__tertiary-item-menu{
-        margin-bottom: 32px;
+        margin-bottom: 3.2rem;
     }
     .footer__tertiary-item-menu:last-of-type{
         margin-bottom: 0;
     }
     .footer__tertiary-link{
-        font-size: 15px;
+        font-size: 1.5rem;
         padding: 0;
     }
     .footer__tertiary-link::after{
@@ -1088,7 +1086,7 @@
         flex-direction: column;
         align-items: normal;
         justify-content: normal;
-        margin-bottom: 20px;
+        margin-bottom: 2.0rem;
     }
     .footer__tertiary-socondary-item{
         text-align: start;
@@ -1096,13 +1094,13 @@
         border-radius: 0;
         padding: 0;
         width: 100%;
-        margin-right: 140px;
+        margin-right: 14.0rem;
     }
     .footer__tertiary-socondary-link{
-        font-size: 15px;
+        font-size: 1.5rem;
     }
     .footer__tertiary-socondary-link:first-of-type{
-        margin-bottom: 35px;
+        margin-bottom: 3.5rem;
     }
 
     /* footer__tertiary-unit-second */
@@ -1118,16 +1116,16 @@
         margin-bottom: 0;
     }
     .footer__tertiary-fanclub--title{
-        margin-bottom: 11px;
+        margin-bottom: 1.1rem;
     }
     .footer__tertiary-fanclub-link-box{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 252px;
+        width: 25.2rem;
     }
     .footer__tertiary-fanclub-link{
-        width: calc(( 100% - 8px ) / 2 );
+        width: calc(( 100% - 0.8rem ) / 2 );
     }
     .footer__tertiary-fanclub-img{
         display: block;
@@ -1139,13 +1137,13 @@
         align-items: stretch;
         flex-direction: column;
         margin-bottom: 0;
-        /* margin-right: 312px; */
+        /* margin-right: 312rem; */
         position: absolute;
         top: 0;
-        left: 311px;
+        left: 31.1rem;
     }
     .footer__tertiary-sns--title{
-        margin-bottom: 20px;
+        margin-bottom: 2.0rem;
     }
     .footer__tertiary-sns-list{
         display: flex;
@@ -1153,20 +1151,20 @@
         justify-content: space-between;
     }
     .footer__tertiary-sns-list--insta{
-        margin-right: 35px;
+        margin-right: 3.5rem;
     }
     .footer__tertiary-sns-list--facebook{
-        margin-right: 36px;
+        margin-right: 3.6rem;
     }
     .footer__tertiary-sns-list--facebook::before{
-        width: 21px;
-        height: 21px;
-        margin-right: 8px;
+        width: 2.1rem;
+        height: 2.1rem;
+        margin-right: 0.8rem;
     }
     .footer__tertiary-sns--list-twitter::before{
-        width: 23px;
-        height: 19px;
-        margin-right: 8px;
+        width: 2.3rem;
+        height: 1.9rem;
+        margin-right: 0.8rem;
     }
     /* footer__tertiary-astaliftmen */
     .footer__tertiary-astaliftmen{
@@ -1182,7 +1180,7 @@
     }
     .footer__tertiary-astaliftmen-img{
         display: block;
-        width: 252px;
+        width: 25.2rem;
     }
 
     /* footer__tertiary-unit-third */
@@ -1190,17 +1188,17 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 20px;
-        border-top: 1px solid rgba(190, 192, 195 , .2);
-        padding: 16px 0 0;
+        margin-top: 2.0rem;
+        border-top: 0.1rem solid rgba(190, 192, 195 , .2);
+        padding: 1.6rem 0 0;
     }
     /* footer__tertiary-copyright */
     .footer__tertiary-copyright-img{
-        width: 73px;
-        margin-right: 32px;
+        width: 7.3rem;
+        margin-right: 3.2rem;
     }
     .footer__tertiary-copyright-text{
-        font-size: 11px;
+        font-size: 1.1rem;
     }
     /* footer__tertiary-sublist */
     .footer__tertiary-sublist{
@@ -1219,7 +1217,7 @@
     }
     .footer__tertiary-sublist-link{
         color: #CBD2D8;
-        padding-right: 8px;
+        padding-right: 0.8rem;
     }
     .footer__tertiary-sublist-link--button::after{
         content: "";
@@ -1227,11 +1225,11 @@
         background-image: url("/astalift-second/assets/images/gray-button.svg");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 8px;
-        height: 8px;
+        width: 0.8rem;
+        height: 0.8rem;
         position: absolute;
         top: 0;
-        right: 0px;
+        right: 0rem;
     }
     .footer__tertiary-sublist-link--button-second::after{
         content: "";
@@ -1239,10 +1237,10 @@
         background-image: url("/astalift-second/assets/images/gray-button.svg");
         background-size: contain;
         background-repeat: no-repeat;
-        width: 8px;
-        height: 8px;
+        width: 0.8rem;
+        height: 0.8rem;
         position: absolute;
         top: 0;
-        right: 33px;
+        right: 3.3rem;
     }
 }
