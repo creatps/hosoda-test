@@ -124,6 +124,9 @@
         line-height: 1.6;
         font-family: "Noto Serif JP", serif;
     }
+    .header-pc__secondary-link:hover{
+        color: #A0A3A6;
+    }
     .header-pc__white-arrow::after{
         content: "";
         display: block;
@@ -442,6 +445,10 @@
         /* 影 : 左右,上下,ぼかし指定,色 */
         box-shadow: 0 1.0rem 1.5rem rgba(0, 0, 0, .2);
     }
+    .products__primary-link:hover{
+        /* 影 : 左右,上下,ぼかし指定,色 */
+        box-shadow: 0 2.0rem 2.0rem rgba(0, 0, 0, .2);
+    }
     .products__primary-link__text{
         padding: 2.0rem;
     }
@@ -537,6 +544,9 @@
         height: 1.6rem;
         margin-left: 1.0rem;
     }
+    .products__secondary-link-title:hover:after{
+        margin-left: 1.8rem;
+    }
     .products__secondary-link-lead{
         font-size: 1.6rem;
         margin-top: 0.6rem;
@@ -601,6 +611,10 @@
         font-size: 1.6rem;
         margin-top: 5.0rem;
     }
+    .common__btn:hover{
+    /* 影 : 左右,上下,ぼかし指定,色 */
+    box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, .3);
+    }
 }
 /* news */
 .news{
@@ -664,6 +678,10 @@
     }
     .news__common-link{
         margin-top: 6.7rem;
+    }
+    .news__link-text:hover{
+    /* 下線を消す */
+    text-decoration: none;
     }
 }
 
@@ -737,6 +755,10 @@
     .footer__primary-link{
         padding: 1.3rem 2.4rem;
     }
+    .footer__primary-link:hover{
+        background-color: #E5E9EF;
+        opacity: 0.3;
+    }
     .footer__primary-img{
         margin-right: 1.5rem;
     }
@@ -768,6 +790,10 @@
         padding: 0 3.0rem;
         max-width: 35.6rem;
         margin: 0 auto 6.0rem;
+    }
+    .footer__secondary-link:hover{
+    /* 影 : 左右,上下,ぼかし指定,色 */
+    box-shadow: 0 0.6rem 0.8rem rgba(0, 0, 0, .2);
     }
     .footer__secondary-img{
         display: block;
@@ -1077,6 +1103,9 @@
         font-size: 1.5rem;
         padding: 0;
     }
+    .footer__tertiary-link:hover{
+        color: #A0A3A6;
+    }
     .footer__tertiary-link::after{
         display: none;
     }
@@ -1098,6 +1127,9 @@
     }
     .footer__tertiary-socondary-link{
         font-size: 1.5rem;
+    }
+    .footer__tertiary-socondary-link:hover{
+        color: #A0A3A6;
     }
     .footer__tertiary-socondary-link:first-of-type{
         margin-bottom: 3.5rem;
@@ -1218,6 +1250,9 @@
     .footer__tertiary-sublist-link{
         color: #CBD2D8;
         padding-right: 0.8rem;
+    }
+    .footer__tertiary-sublist-link:hover{
+        color: #A0A3A6;
     }
     .footer__tertiary-sublist-link--button::after{
         content: "";
