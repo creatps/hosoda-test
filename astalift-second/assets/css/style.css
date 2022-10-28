@@ -58,7 +58,7 @@
 .header-pc{
     display: none;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .header-sp{
         display: none;
     }
@@ -327,7 +327,7 @@
     width: 3.0rem;
     margin-top: 1.3rem;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .sub-title{
         align-items: stretch;
         font-size: 2.4rem;
@@ -356,7 +356,7 @@
     line-height: 1.6;
     font-family: "Noto Serif JP", serif;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .products__main{
         padding: 11.0rem 0;
     }
@@ -424,7 +424,7 @@
     margin-top: 0.8rem;
     font-family: 'Noto Sans JP', sans-serif;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .products__primary{
         margin-bottom: 7.0rem;
         max-width: 101.6rem;
@@ -520,7 +520,7 @@
     font-family: "Noto Serif JP", serif;
     margin-top: 0.5rem;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .products__secondary{
         padding: 0;
     }
@@ -573,7 +573,7 @@
     display: block;
     width: 100%;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .movie{
         margin-bottom: 9.1rem;
     }
@@ -604,7 +604,7 @@
     /* paddingとborderがwidthとheightの中に含まれるようになる。 */
     box-sizing: border-box
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .common__btn{
         width: 35.6rem;
         padding: 1.75rem 2.0rem;
@@ -661,7 +661,7 @@
     /* 下線を引く */
     text-decoration: underline;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .news{
         padding: 0 3.0rem;
         margin: 0 auto 9.5rem;
@@ -731,7 +731,7 @@
     bottom: 0;
     margin: auto;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .footer__primary{
         max-width: 118.8rem;
         margin: 0 auto 5.0rem;
@@ -785,7 +785,7 @@
     display: block;
     width: 100%;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     .footer__secondary{
         padding: 0 3.0rem;
         max-width: 35.6rem;
@@ -1048,7 +1048,7 @@
     line-height: 1.6;
     font-family: "Roboto", sans-serif;
 }
-@media screen and (min-width: 101.6rem){
+@media screen and (min-width: 1016px){
     /* footer__tertiary */
     .footer__tertiary{
         padding: 5.0rem 0 1.5rem;
