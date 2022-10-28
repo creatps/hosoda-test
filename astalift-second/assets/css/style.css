@@ -123,6 +123,8 @@
         color: var(--colortWhite);
         line-height: 1.6;
         font-family: "Noto Serif JP", serif;
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
     .header-pc__secondary-link:hover{
         color: #A0A3A6;
@@ -444,6 +446,8 @@
         display: block;
         /* 影 : 左右,上下,ぼかし指定,色 */
         box-shadow: 0 1.0rem 1.5rem rgba(0, 0, 0, .2);
+        /*ふわっとさせる指定*/
+        transition : 1s;
     }
     .products__primary-link:hover{
         /* 影 : 左右,上下,ぼかし指定,色 */
@@ -495,13 +499,15 @@
     width: 100%;
 }
 .products__secondary-link-title{
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--mainRed);
     font-family: "Noto Serif JP", serif;
     margin-top: 1.3rem;
+    position: relative;
+    width: fit-content;
 }
 .products__secondary-link-title::after{
     content: "";
@@ -511,7 +517,11 @@
     background-repeat: no-repeat;
     width: 0.6rem;
     height: 1.2rem;
-    margin-left: 0.8rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -1.2rem;
 }
 .products__secondary-link-lead{
     font-size: 1.2rem;
@@ -542,10 +552,12 @@
     .products__secondary-link-title::after{
         width: 0.8rem;
         height: 1.6rem;
-        margin-left: 1.0rem;
+        right: -1.4rem;
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
-    .products__secondary-link-title:hover:after{
-        margin-left: 1.8rem;
+    .products__secondary-link:hover .products__secondary-link-title::after{
+        right: -2.4rem;
     }
     .products__secondary-link-lead{
         font-size: 1.6rem;
@@ -610,6 +622,8 @@
         padding: 1.75rem 2.0rem;
         font-size: 1.6rem;
         margin-top: 5.0rem;
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
     .common__btn:hover{
     /* 影 : 左右,上下,ぼかし指定,色 */
@@ -754,6 +768,8 @@
     }
     .footer__primary-link{
         padding: 1.3rem 2.4rem;
+        /*ふわっとさせる指定*/
+        transition : 1s;
     }
     .footer__primary-link:hover{
         background-color: #E5E9EF;
@@ -790,6 +806,10 @@
         padding: 0 3.0rem;
         max-width: 35.6rem;
         margin: 0 auto 6.0rem;
+    }
+    .footer__secondary-link{
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
     .footer__secondary-link:hover{
     /* 影 : 左右,上下,ぼかし指定,色 */
@@ -1102,6 +1122,8 @@
     .footer__tertiary-link{
         font-size: 1.5rem;
         padding: 0;
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
     .footer__tertiary-link:hover{
         color: #A0A3A6;
@@ -1127,6 +1149,8 @@
     }
     .footer__tertiary-socondary-link{
         font-size: 1.5rem;
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
     .footer__tertiary-socondary-link:hover{
         color: #A0A3A6;
@@ -1250,6 +1274,8 @@
     .footer__tertiary-sublist-link{
         color: #CBD2D8;
         padding-right: 0.8rem;
+        /*ふわっとさせる指定*/
+        transition : .3s;
     }
     .footer__tertiary-sublist-link:hover{
         color: #A0A3A6;
