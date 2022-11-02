@@ -1,1 +1,6 @@
 .htaccess
+
+# gitignore = ファイル名を書くだけでgitに反映させない役割
+
+# 自動生成系ファイル
+.DS_Store
