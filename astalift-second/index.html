@@ -11,7 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <!-- 表示領域 // PCやモバイル（スマホ、タブレット）といったデバイスごとにコンテンツの表示領域を設定するためのHTML属性値（meta要素のname属性の属性値）のこと -->
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>ページタイトル // 検索結果やブラウザのタブに表示</title>
+    <!-- ページタイトル // 検索結果やブラウザのタブに表示 -->
+    <title>terao-try-again</title>
     <meta name="description" content="検索結果に表示されるページの説明" />
     <meta name="keywords" content="そのページがどんなキーワードと関連したページなのかを示すタグのこと">
     <!-- iPhoneでは、電話番号らしき文字列があると自動検出してリンクになってしまい、それを防ぐためのもの。 -->
@@ -43,6 +44,9 @@
     <link rel="stylesheet" href="/astalift-second/assets/css/style.css">
     <!-- canonical（カノニカル） // 同じサイト内に、重複したコンテンツや類似するページが存在する場合、どのページを評価してほしいかを検索エンジンに伝えるためのタグ -->
     <link rel="canonical" href="正規ページURL">
+
+    <!-- jsファイルの読み込み -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header class="header">
@@ -53,6 +57,7 @@
                 <div class="hamburger-icon__line"></div>
                 <div class="hamburger-icon__line"></div>
             </div>
+        </div>
         </div>
         <div class="header-pc">
             <ul class="header-pc__primary-list">
@@ -634,5 +639,7 @@
             </div>
         </div>
     </footer>
+    <!-- script.js (JSファイル)を読み込む : 追加 -->
+    <script src="/astalift-second/assets/js/script.js"></script>
 </body>
 </html>
