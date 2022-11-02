@@ -447,7 +447,7 @@
         /* 影 : 左右,上下,ぼかし指定,色 */
         box-shadow: 0 1.0rem 1.5rem rgba(0, 0, 0, .2);
         /*ふわっとさせる指定*/
-        transition : 1s;
+        transition : .3s;
     }
     .products__primary-link:hover{
         /* 影 : 左右,上下,ぼかし指定,色 */
