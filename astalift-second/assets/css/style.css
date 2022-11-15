@@ -10,6 +10,7 @@
     --backGray: #E5E9EF;
 }
 
+
 /* header */
 .header{
     padding: 2.1rem 13.3rem 1.6rem 13.8rem;
@@ -35,6 +36,7 @@
         width: 12.7rem;
     }
 }
+
 /* header-sp */
 .header-sp{
     display: flex;
@@ -54,7 +56,31 @@
     width: 100%;
     height: 0.1rem;
     background-color: var(--colortWhite);
+    /* アニメーション:ふわっと */
+    /* all ease:入りも抜けも */
+    transition: .3s all ease;
 }
+
+/* 動かすためのモディファイや */
+.hamburger-icon__line--left{
+    /* 変形:角度 */
+    transform: rotate(45deg);
+}
+/* 動かすためのモディファイや */
+.hamburger-icon__line--right{
+    /* 変形:角度 */
+    transform: rotate(-45deg);
+    position: absolute;
+}
+/* 動かすためのモディファイや */
+.hamburger-icon__line--none{
+    display: none;
+}
+/* 動かすためのモディファイや */
+.hamburger-icon--open{
+    top: 3rem;
+}
+
 .header-pc{
     display: none;
 }
