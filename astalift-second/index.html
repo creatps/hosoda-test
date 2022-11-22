@@ -50,7 +50,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="">
+        <div class="header_body">
 			<div class="header_container">
                 <h1 class="header-logo"><img class="header-logo__img" src="assets/images/header-logo.svg" alt="ASTAlIFT"></h1>
                 <div class="header-sp">
@@ -61,13 +61,15 @@
                     </div>
                 </div>
             </div>
-            <nav class="sample--sp__menu">
-                <ul class="sample--sp__menu--list">
-                    <li class="sample--sp__menu--item">HOME</li>
-                    <li class="sample--sp__menu--item">ABOUT</li>
-                    <li class="sample--sp__menu--item">NEWS</li>
-                    <li class="sample--sp__menu--item">CONTACT</li>
-                </ul>
+            <nav class="sample--sp__menu" id="g-nav" class="panelactive">
+                <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                    <ul class="sample--sp__menu--list">
+                        <li class="sample--sp__menu--item"><a href="#">HOME</a></li>
+                        <li class="sample--sp__menu--item"><a href="#">ABOUT</a></li>
+                        <li class="sample--sp__menu--item"><a href="#">NEWS</a></li>
+                        <li class="sample--sp__menu--item"><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
 
