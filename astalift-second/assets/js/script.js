@@ -17,3 +17,16 @@ hamburgerIcon.addEventListener('click' ,
 )
 
 
+const btn = document.querySelector('.btn-menu');
+const navSp = document.getElementById('navSp');
+
+btn.addEventListener('click', () => {
+    nav.classList.toggle('open-menu')
+  // if (btn.innerHTML === 'メニュー') {
+  //   btn.innerHTML = '閉じる';
+  // } else {
+  //   btn.innerHTML = 'メニュー';
+  // }
+  // ↑ これと同じ意味の三項演算子での書き方 ↓
+    btn.innerHTML = btn.innerHTML === 'メニュー'? '閉じる': 'メニュー'
+});
