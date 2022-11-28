@@ -82,9 +82,6 @@
     top: 3rem;
 }
 
-.nav-sp{
-
-}
 .header-pc{
     display: none;
 }
@@ -170,6 +167,97 @@
         margin-left: 0.9rem;
     }
 }
+
+/* nav-sp */
+.nav-sp{
+    background-color: var(--colortWhite);
+}
+.nav-sp__list{
+    margin-bottom: 4.5rem;
+}
+.nav-sp__item{
+    border-bottom: 0.1rem solid var(--lineGray);
+}
+.nav-sp__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--colorBlack);
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding: 2.0rem 1.9rem;
+    font-family: "Noto Serif JP", serif;
+}
+.nav-sp__link::after{
+    content: "";
+    display: block;
+    background-image: url(/astalift-second/assets/images/red-arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.nav-sp__padding{
+    padding: 0 2.0rem;
+}
+.nav-sp__padding__trial{
+    margin-bottom: 2.0rem;
+}
+.nav-sp__padding__trial-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--colortWhite);
+    font-size: 1.6rem;
+    font-family: "Noto Serif JP", serif;
+    padding: 2.0rem 0;
+    border-radius: 0.6rem;
+    background: linear-gradient(to right, rgba(215, 6, 59, 1) ,rgba(105, 3, 31, 1) , black 140%);
+}
+.nav-sp__padding__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3.0rem;
+}
+.nav-sp__padding__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid var(--mainRed);
+    border-radius: 0.6rem;
+    padding: 1.7rem 0;
+    width: calc(( 100% - 1.5rem ) / 2 );
+}
+.nav-sp__padding__link{
+    display: flex;
+    justify-content: center;
+    color: var(--mainRed);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: "Noto Serif JP", serif;
+}
+.nav-sp__padding__link::after{
+    content: "";
+    display: block;
+    background-image: url("/astalift-second/assets/images/link_icon_red.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1.0rem;
+    height: 1.0rem;
+    margin-left: 0.3rem;
+}
+.nav-sp__padding__astaliftmen{
+    margin-bottom: 5.0rem;
+}
+.nav-sp__padding__astaliftmen-link{
+    display: block;
+}
+.nav-sp__padding__astaliftmen-img{
+    display: block;
+    width: 100%;
+}
+
 
 /* main-visual */
 .main-visual{
