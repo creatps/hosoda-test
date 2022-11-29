@@ -3,6 +3,8 @@ const hamburgerIcon = document.getElementById('hamburgerIcon');
 const hamburgerLineOne = document.getElementById('hamburgerLineOne');
 const hamburgerLineTwo = document.getElementById('hamburgerLineTwo');
 const hamburgerLineThree = document.getElementById('hamburgerLineThree');
+const navSp = document.getElementById('navSp');
+
 
 // ハンバーガー押すとこういうアクションを起こす
 hamburgerIcon.addEventListener('click' ,
@@ -13,20 +15,28 @@ hamburgerIcon.addEventListener('click' ,
         hamburgerLineOne.classList.toggle('hamburger-icon__line--left');
         hamburgerLineTwo.classList.toggle('hamburger-icon__line--none');
         hamburgerLineThree.classList.toggle('hamburger-icon__line--right');
+
+        // add(読み方:あっど)
+        // navSpにnav-sp--slideというクラスを付与します
+        navSp.classList.add('nav-sp--slide');
+        navSp.classList.toggle('nav-sp--sab');
     }
 )
 
 
-const btn = document.querySelector('.btn-menu');
-const navSp = document.getElementById('navSp');
-
-btn.addEventListener('click', () => {
-    nav.classList.toggle('open-menu')
-  // if (btn.innerHTML === 'メニュー') {
-  //   btn.innerHTML = '閉じる';
-  // } else {
-  //   btn.innerHTML = 'メニュー';
-  // }
-  // ↑ これと同じ意味の三項演算子での書き方 ↓
-    btn.innerHTML = btn.innerHTML === 'メニュー'? '閉じる': 'メニュー'
-});
+// スクロールを禁止にする関数
+function disableScroll(event) {
+    event.preventDefault();
+    }
+    // スクロール禁止
+    document.getElementById('hamburgerIcon').onclick = function() {
+    // イベントと関数を紐付け
+    document.addEventListener('touchmove', disableScroll, { passive: false });
+    document.addEventListener('wheel', disableScroll, { passive: false });
+}
+// スクロール解除
+document.getElementById('navSp').onclick = function() {
+    // イベントと関数を紐付け
+    document.removeEventListener('touchmove', disableScroll, { passive: false });
+    document.removeEventListener('wheel', disableScroll, { passive: false });
+}
