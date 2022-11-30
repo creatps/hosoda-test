@@ -93,6 +93,7 @@
 
 /* nav-sp */
 .nav-sp{
+    display: block;
     background-color: var(--colortWhite);
     height: 100vh;
 }
@@ -188,6 +189,7 @@
     width: 100%;
 }
 
+
 .header-pc{
     display: none;
 }
@@ -271,6 +273,66 @@
         width: 1.4rem;
         height: 0.7rem;
         margin-left: 0.9rem;
+    }
+
+    .nav-sp{
+        display: none;
+    }
+    /* nav-pc */
+    .nav-pc{
+
+    }
+    .nav-pc__info-list{
+        box-shadow: 2.0rem 4.0rem 4.0rem rgb(0 0 0 / 20%);
+        width: fit-content;
+        background-color: var(--colortWhite);
+    }
+    .nav-pc__info-item{
+        padding: 1.8rem 2.8rem;
+        border-bottom: 1px solid var(--lineGray);
+    }
+    .nav-pc__info-item:last-of-type{
+        border-bottom:  none;
+    }
+    .nav-pc__info-link{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        font-family: "Noto Serif JP", serif;
+        color: var(--colorBlack);
+    }
+
+    .nav-pc__detail{
+        background-color: var(--colortWhite);
+        width: fit-content;
+    }
+    .nav-pc__detail-top{
+        padding: 1.8rem 2.8rem;
+        border-bottom: 1px solid var(--lineGray);
+    }
+    .nav-pc__detail-top-link{
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        font-family: "Noto Serif JP", serif;
+        color: var(--colorBlack);
+    }
+    .nav-pc__detail-list{
+
+    }
+    .nav-pc__detail-item{
+        padding: 1.7rem 3.8rem;
+        border-bottom: 1px solid var(--lineGray);
+    }
+    .nav-pc__detail-item:last-of-type{
+        border-bottom:  none;
+    }
+    .nav-pc__detail-link{
+        display: block;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        font-family: "Noto Serif JP", serif;
+        color: #3B4043;
     }
 }
 
