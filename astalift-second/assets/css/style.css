@@ -282,12 +282,17 @@
     /* nav-pc */
     .nav-pc{
     }
+    .header-pc__secondary-item--info:hover .nav-pc__info-list{
+        transform:translateY(100%);
+        opacity: 1;
+    }
     .nav-pc__info-list{
         box-shadow: 2.0rem 4.0rem 4.0rem rgb(0 0 0 / 20%);
         width: fit-content;
         background-color: var(--colortWhite);
         position: absolute;
-        top: 11.9rem;
+        bottom: 0;
+        opacity: 0;
     }
     .nav-pc__info-item{
         padding: 1.8rem 2.8rem;
@@ -304,15 +309,16 @@
         color: var(--colorBlack);
     }
 
-    .header-pc__secondary-item--detail:hover{
-        position: absolute;
-        top: 11.9rem;
+    .header-pc__secondary-item--detail:hover .nav-pc__detail{
+        transform:translateY(100%);
+        opacity: 1;
     }
     .nav-pc__detail{
         background-color: var(--colortWhite);
         width: fit-content;
         position: absolute;
-        top: -100rem;
+        bottom: 0;
+        opacity: 0;
     }
     .nav-pc__detail-top{
         padding: 1.8rem 2.8rem;
