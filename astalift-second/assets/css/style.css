@@ -311,8 +311,6 @@
     .nav-pc__detail{
         background-color: var(--colortWhite);
         width: fit-content;
-        height: 0;
-        overflow: hidden;
         position: absolute;
         top: -100rem;
     }

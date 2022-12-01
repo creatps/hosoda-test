@@ -7,7 +7,7 @@ const navSp = document.getElementById('navSp');
 
 
 // ハンバーガー押すとこういうアクションを起こす
-hamburgerIcon.addEventListener('click' ,
+hamburgerIcon.addEventListener('click',
     () => {
         // このidがついている要素にクラスを toggle((トグル)＝ついてたら外す、なかったらつける) する
         hamburgerIcon.classList.toggle('hamburger-icon--open');
@@ -27,16 +27,17 @@ hamburgerIcon.addEventListener('click' ,
 // スクロールを禁止にする関数
 function disableScroll(event) {
     event.preventDefault();
-    }
-    // スクロール禁止
-    document.getElementById('hamburgerIcon').onclick = function() {
-    // イベントと関数を紐付け
-    document.addEventListener('touchmove', disableScroll, { passive: false });
-    document.addEventListener('wheel', disableScroll, { passive: false });
 }
-// スクロール解除
-document.getElementById('navSp').onclick = function() {
-    // イベントと関数を紐付け
-    document.removeEventListener('touchmove', disableScroll, { passive: false });
-    document.removeEventListener('wheel', disableScroll, { passive: false });
+// スクロール禁止
+hamburgerIcon.onclick = function () {
+    const hamburgerIconOpen = document.querySelector('hamburger-icon--open')
+
+    // if() else(ifではない時)
+    if (hamburgerIconOpen) {
+        document.addEventListener('touchmove', disableScroll, { passive: false });
+        document.addEventListener('wheel', disableScroll, { passive: false });
+    } else {
+        document.removeEventListener('touchmove', disableScroll, { passive: false });
+        document.removeEventListener('wheel', disableScroll, { passive: false });
+    }
 }
